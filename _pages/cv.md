@@ -31,7 +31,7 @@ Work experience
 ======
 * 2023 H2, 2024 Spring: Project Intern, Part-time Assistant (PTA), Roland Berger
 * Apr 2023 - Aug 2023: Algorithm Product Manager Intern, Research Assistant, LeetCode
-* Apr 2022 - Aug 2022: Consulting Intern, Ernst & Yound Parthenon
+* Apr 2022 - Aug 2022: Consulting Intern, Ernst & Young Parthenon
 
   
 Service and leadership
