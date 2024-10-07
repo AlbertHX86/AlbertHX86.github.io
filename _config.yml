@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.png"
+  avatar           : "albert.png"
   name             : "Xiao Huang"
   pronouns         : # example: "she/her"  
   bio              : "Final Year Electrical Engineering Student at NUS"
