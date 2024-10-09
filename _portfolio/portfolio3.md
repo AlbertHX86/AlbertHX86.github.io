@@ -1,6 +1,6 @@
 ---
 title: "Offshore Wind Power: New Strategies in Various Provinces"
-excerpt: ""
+excerpt: "Summarizing of the new collaborative modes of OSW OEMs and authorities in China"
 collection: portfolio
 ---
 Unlike provinces that began developing offshore wind power earlier, provinces that have only recently started large-scale development are placing more emphasis on offshore wind resources. They are establishing provincial platform companies to secure more offshore wind power projects. For instance, Zhejiang Province recently formed a new offshore wind power platform company named Zhejiang Marine Wind Power Development Co., Ltd.3 This company is owned by four state-owned enterprises (SOEs) under Zhejiang's provincial government: Zhejiang Energy Group (55%)4, Zhejiang Machinery & Electrical Group Co., Ltd. (20%), Zhejiang Port Investment & Operation Group Co., Ltd. (15%), and Hangzhou Iron & Steel Group Co., Ltd. (10%).
