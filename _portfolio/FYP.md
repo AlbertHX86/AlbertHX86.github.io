@@ -1,6 +1,6 @@
 ---
-title: "Integration of collaborative filtering to predict the demand for electricity in EV charging grids"
-excerpt: "IW project worked with Prof. Dipti Srinivasan"
+title: "Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage"
+excerpt: "Final Year Dissertation"
 collection: portfolio
 ---
 In the study of low-carbon distributed energy storage systems, with the large-scale application of sustainable energy, the power grid is transforming into a decentralized network. As more and more distributed energy resources (DERs) are integrated, the existing Fixed Energy Storage Systems (FESS) cannot meet the current storage demands. Current stationary storage systems (FESS) are underutilized and limited in adaptability to fluctuating demand and grid disturbances. Energy storage systems are expected to meet ever-increasing demands for flexibility, including time shift, congestion relief, and ramping. However, these demands are distributed and sporadic, changing over time and space, which means that if the system is installed in a fixed location, its utilization rate will typically be low. Inefficient energy storage and dispatch further affect the economic benefits during normal operations and hinder rapid dispatch during emergencies, thereby impeding the progress towards decarbonization.
