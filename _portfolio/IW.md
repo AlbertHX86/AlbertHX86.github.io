@@ -1,6 +1,6 @@
 ---
 title: "Integration of collaborative filtering to predict the demand for electricity in EV charging grids"
-excerpt: ""
+excerpt: "IW project worked with Prof. Dipti Srinivasan"
 collection: portfolio
 ---
 ** This project is my Independent Work project (IW), with the supervision of Prof. Dipti Srinivasan. **
