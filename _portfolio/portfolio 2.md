@@ -1,6 +1,6 @@
 ---
 title: "2024 H1 China OSW market analysis"
-excerpt: ""
+excerpt: "Highlights of 2024H1 China OSW market, the largest OSW market around the world"
 collection: portfolio
 ---
 
