@@ -1,6 +1,6 @@
 ---
 title: "A Comparative Analysis of Gaussian Mixture Model and K-means Clustering Algorithms With Applications in Time-of-Use (TOU) Clustering"
-excerpt: ""
+excerpt: "UROP project worked with Prof. Xiang Cheng"
 collection: portfolio
 ---
 ** This project is my undergraduate research opportunity programme (UROP), with the supervision of Prof. Xiang Cheng. **
