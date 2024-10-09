@@ -3,7 +3,7 @@ title: "Integration of collaborative filtering to predict the demand for electri
 excerpt: ""
 collection: portfolio
 ---
-This project is my Independent Work project (IW), with the supervision of Prof. Dipti Srinivasan.
+** This project is my Independent Work project (IW), with the supervision of Prof. Dipti Srinivasan. **
 
 As the world enters the era of electric vehicles, energy demand for charging is becoming a challenge for both the supply side and the user side. The complexity of the prediction problem stems from the intricate nature of user charging patterns and the need for advanced algorithmic development to address the prediction challenges [1]. In this report, we introduce an innovative approach to predicting energy demand in electric vehicle (EV) charging networks. A deep clustering technique is employed to extract user charging behaviours, which are then used as features in a novel Convolutional Neural Network-Bidirectional Long Short Term Memory (CNN-BiLSTM) model applied to the ACN-Data dataset, comprising a wide array of EV charging sessions from Caltech in the United States.
 
