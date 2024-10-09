@@ -38,7 +38,11 @@ Work experience
 * Apr 2023 - Aug 2023: Algorithm Product Manager Intern, Research Assistant, **LeetCode**
 * Apr 2022 - Aug 2022: Consulting Intern, **Ernst & Young Parthenon**
 
-  
+Startup experience
+======
+* 2023 ongoing: Product Manager, UI/UX designer, Progammer, AI Engineer, **CNeutral.io**
+* 2022-2023: CTO, Cofounder, **YEAH: Young Elite Alliances in Hospitality**
+ 
 Service and leadership
 ======
 * 2024 - : Community Activities for Seniors @ SG Cares
