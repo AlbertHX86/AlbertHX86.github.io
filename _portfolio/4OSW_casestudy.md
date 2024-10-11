@@ -1,5 +1,5 @@
 ---
-title: "How China Completes OSW Projects"
+title: "Energy Policy: How China Completes OSW Projects"
 excerpt: "A Case Study of the CGN Jiangmen Chuandao Offshore Wind Power Project. Showing the construction and planning of OSW projects in China"
 collection: portfolio
 ---
