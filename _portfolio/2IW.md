@@ -1,5 +1,5 @@
 ---
-title: "Integration of collaborative filtering to predict the demand for electricity in EV charging grids"
+title: "AI for urban systems and smart grids: Integration of collaborative filtering to predict the demand for electricity in EV charging grids"
 excerpt: "IW project worked with Prof. Dipti Srinivasan. In this study, deep clustering, LSTM networks, and collaborative filtering techniques were employed for clustering user behaviours and predicting energy demands in electric vehicle (EV) charging stations. Additionally, the user interface (UI) requires enhancements to better serve our primary stakeholders, the users and generators. Furthermore, the exploration of novel algorithms could offer substantial improvements in addressing these issues within the EV charging sector. This study emphasized the importance of utilizing data science and AI in urban systems."
 collection: portfolio
 ---
