@@ -1,5 +1,5 @@
 ---
-title: "Offshore Wind Power: New Strategies in Various Provinces"
+title: "Energy policy: Offshore Wind Power: New Strategies in Various Provinces"
 excerpt: "Summarizing of the new collaborative modes of OSW OEMs and authorities in China. In the 14th 5 year plan, China aims to become the largest market and generator of off-shore wind energy. Therefore, the strategies of the provinces while establishing the projects have changed consequently."
 collection: portfolio
 ---
