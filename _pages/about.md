@@ -11,6 +11,10 @@ I am a final year Electrical Engineering undergraduate at NUS, specializing in I
 
 My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wyman focused on various TMT sectors including sustainable energy, electric vehicles and robotaxis. Currently, I am also working as a product manager for a ESG fintech startup product at CNeutral.io (https://cneutral.io/), a leading ESG portfolio management terminal based in Singapore.
 
+Ongoing Research
+------
+Enhancing Grid Resilience and Economic Efficiencythrough spatial-temporal Arbitrage of Mobile Energy Storage Systems (MESS), Supervised by Professor. Dipti Srinivasan and Dr. Can Berk Saner
+
 
 Previous research experiences
 ------
