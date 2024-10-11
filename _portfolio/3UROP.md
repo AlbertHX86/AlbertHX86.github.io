@@ -1,9 +1,9 @@
 ---
 title: "A Comparative Analysis of Gaussian Mixture Model and K-means Clustering Algorithms With Applications in Time-of-Use (TOU) Clustering"
-excerpt: "UROP project worked with Prof. Xiang Cheng"
+excerpt: "UROP project worked with Prof. Xiang Cheng. This study showcases the work of ML algorithms in EV charging systems, and shows the different user behaviors and scenarios in EV charging"
 collection: portfolio
 ---
-** This project is my undergraduate research opportunity programme (UROP), with the supervision of Prof. Xiang Cheng. **
+**This project is my undergraduate research opportunity programme (UROP), with the supervision of Prof. Xiang Cheng.**
 
 Clustering algorithms are powerful unsupervised machine learning techniques used to group similar data points together based on their attributes and features. Clustering algorithms also have many application scenarios, such as the rise in popularity of electric vehicles and smart grids, where the utilization patterns of electric vehicle users in smart grids and consumer behaviour become topics that need to be enhanced in pricing models [1]. In order to classify user behaviour, clustering can be applied to the raw charging data to find the charging behaviour of different users.
 
