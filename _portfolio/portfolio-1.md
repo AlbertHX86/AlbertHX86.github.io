@@ -1,5 +1,5 @@
 ---
-title: "CNeutral.io"
+title: "ESG transition finence startup: CNeutral.io"
 excerpt: "Product management of world's learning transition finance portfolio management terminal"
 collection: portfolio
 ---
