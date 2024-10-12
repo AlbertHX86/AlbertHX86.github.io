@@ -1,5 +1,5 @@
 ---
-title: "AI for urban systems and smart grids: A Comparative Analysis of Gaussian Mixture Model and K-means Clustering Algorithms With Applications in Time-of-Use (TOU) Clustering"
+title: "*AI for urban systems and smart grids:* A Comparative Analysis of Gaussian Mixture Model and K-means Clustering Algorithms With Applications in Time-of-Use (TOU) Clustering"
 excerpt: "UROP project worked with Prof. Xiang Cheng. This study showcases the work of ML algorithms in EV charging systems, and shows the different user behaviors and scenarios in EV charging"
 collection: portfolio
 ---
