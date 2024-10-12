@@ -1,5 +1,5 @@
 ---
-title: "AI for energy systems: Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage"
+title: "AI for energy systems: Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage Systems"
 excerpt: "Final Year Dissertation supervised by Prof. Dipti Srinivasan and Dr. Can Berk Saner. This study shows the importance of routing and scheduling of energy storage systems (ESS) in urban systems. MESS are crucial in improving the resilience of smart grids and improve the profitability abilities."
 collection: portfolio
 ---
