@@ -1,5 +1,5 @@
 ---
-title: "Web 3.0 for hospitality startup: YEAH -- Decentralized Application for Hospitality"
+title: "*Startup:* Web 3.0 for hospitality startup: YEAH -- Decentralized Application for Hospitality"
 excerpt: "Project Management of DApp for hospitality"
 collection: portfolio
 ---
