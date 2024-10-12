@@ -1,5 +1,5 @@
 ---
-title: "Energy policy and market: 2024 H1 China OSW market analysis"
+title: "*Energy policy and market:* 2024 H1 China OSW market analysis"
 excerpt: "Highlights of 2024H1 China OSW market, the largest OSW market around the world"
 collection: portfolio
 ---
