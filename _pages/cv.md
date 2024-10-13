@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
-  * Specialization in Sustainable Energy Transportation
+  * Specialization in Industry 4.0
 * B.Eng. in General Engineering, University of Edinburgh, 2020-2021
 
 Interests
