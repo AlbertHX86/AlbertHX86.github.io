@@ -16,4 +16,5 @@ However, it is also necessary to promote the digitization of the platform, espec
 ![6a8b9ba7-78b5-4347-b7a7-b100bc6e6c85](https://github.com/user-attachments/assets/3d5dd51e-5d01-4783-9cda-414bac922315)
 
 ## My team, as technical development
+We have a huge group of colleagues working for YEAH. And as the lead of technical team, I am reponsible for developing our mobile app, website and forums. We also utilized Solana to build our NFT and DAO. Which encourages participants work and mine individually.
 ![图片](https://github.com/user-attachments/assets/ea4a550c-5152-4059-8738-532d3da66054)
