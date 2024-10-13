@@ -1,6 +1,6 @@
 ---
 title: "*AI for energy systems:* Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage Systems"
-excerpt: "Final Year Dissertation supervised by Prof. Dipti Srinivasan and Dr. Can Berk Saner. This study shows the importance of routing and scheduling of energy storage systems (ESS) in urban systems. MESS are crucial in improving the resilience of smart grids and improve the profitability abilities."
+excerpt: "Final Year capstone supervised by Prof. Dipti Srinivasan and Dr. Can Berk Saner. This study shows the importance of routing and scheduling of energy storage systems (ESS) in urban systems. From the study, it can be found that mobile ESS (MESS) are crucial in improving the resilience of smart grids and improve the profitability abilities. In the future, by proposing DRL methods in uncertainty modelling and upgraded linear programming in the urban during normal and extreme events, it can achieve considerable abilities in profitability during normal operations and resilience improvement during contingencies in the urban systems."
 collection: portfolio
 ---
 **This is my *ongoing* Final Year Dissertation with the Supervision of Professor Dipti Srinivasan and Dr. Can Berk Saner, mainly focusing on a scheduling and routing problem of mobile energy storage system to improve the resilience of the smart grids and arbitrage of MESS in the urban areas**
