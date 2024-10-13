@@ -14,7 +14,6 @@ However, it is also necessary to promote the digitization of the platform, espec
 ## Summits
 ![3bbc4425-1e87-45b9-96bf-c0523ba7a2a9](https://github.com/user-attachments/assets/f563f88e-9a66-4b9f-ad02-205217626352)
 ![6a8b9ba7-78b5-4347-b7a7-b100bc6e6c85](https://github.com/user-attachments/assets/3d5dd51e-5d01-4783-9cda-414bac922315)
-![6a8b9ba7-78b5-4347-b7a7-b100bc6e6c85](https://github.com/user-attachments/assets/7c1e539c-ab86-4fe5-8568-ab349c8fd913)
 
 ## My team, as technical development
 ![图片](https://github.com/user-attachments/assets/ea4a550c-5152-4059-8738-532d3da66054)
