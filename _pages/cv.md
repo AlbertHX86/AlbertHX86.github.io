@@ -40,10 +40,15 @@ Work experience
 ======
 * 2023 H2, 2024 Spring: Project Intern, Part-time Assistant (PTA), **Roland Berger**
   * Client companies: Energy sectors, NEV/EV OEMs, Robotaxi
-* Apr 2023 - Aug 2023: Algorithm Product Manager Intern, Research Assistant, **LeetCode**
+  * Developed research reports for the client companies from the perspective of strategy
+  * Desk research of tech market and provide visualizaion to the insights
+* Apr 2023 - Aug 2023: Algorithm Product Manager Intern (C-end), **LeetCode**
   * Worked as an algorithm product manager responsible for Feed stream algorithms
+  * Developed sorting and recommendation system using collaborative filtering, improved pv-ctr 5 times
+  * Product management of "Study" feature, and this feature has been implemented to both .cn and global site
 * Apr 2022 - Aug 2022: Consulting Intern, **Ernst & Young Parthenon**
-    * Client company: A Chinese Top OEM
+    * Client company: A Chinese Top EV OEM
+    * Successfully facilitated the company go abroad and profit at the target market
 
 Startup experience
 ======
