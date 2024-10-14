@@ -49,5 +49,5 @@ If there is a line-ground short circuit fault of bus in bus 2. At this point, th
 
 ![图片](https://github.com/user-attachments/assets/2f5ea9a1-bd0d-480b-a294-a4352ebaadcd)
 
-
+[Meshed Network Design.pdf](https://github.com/user-attachments/files/17365830/Meshed.Network.Design.pdf)
 
