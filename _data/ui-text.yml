@@ -20,7 +20,7 @@ en: &DEFAULT_EN
   comments_label             : "Leave a Comment"
   comments_title             : "Comments"
   more_label                 : "Learn More"
-  related_label              : "You May Also Enjoy"
+  related_label              : "haha, wanna see more?"
   follow_label               : "Follow:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
@@ -38,7 +38,7 @@ en: &DEFAULT_EN
   comment_btn_submitted      : "Submitted"
   comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
-  loading_label              : "Loading..."
+  loading_label              : "Discovering..."
 en-US:
   <<: *DEFAULT_EN
 en-CA:
