@@ -1,4 +1,3 @@
-
 ---
 title: "*Urban Grids Design:* Simulation of a 9 Bus Meshed Network in Urban System"
 excerpt: "In recent years, power system planning has gained increasing significance, especially due to the increasing variety of loads and the integration of renewable energy sources, which pose challenges in load forecasting. As the availability of electricity infrastructure grows, the rising number of buses adds complexity to power flow computation and power system planning. Mastering the utilisation of the prevailing simulation software for power flow computation and fault investigation is a comprehensive solution to address this pressing issue. This report primarily focuses on simulating a 9-bus system. Power flow computation and fault simulation are conducted using Powerworld. Subsequently, selection and protection strategies are given."
