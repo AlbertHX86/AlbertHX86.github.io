@@ -1,6 +1,8 @@
 ---
 title: "*AI for urban systems and smart grids:* Integration of deep reinforcement learning (DRL) to predict the demand for electricity in EV charging grids"
-excerpt: "IW project worked with Prof. Dipti Srinivasan. In this study, deep clustering, LSTM networks, and collaborative filtering techniques were employed for clustering user behaviours and predicting energy demands in electric vehicle (EV) charging stations. Additionally, the user interface (UI) requires enhancements to better serve our primary stakeholders, the users and generators. Furthermore, the exploration of novel algorithms could offer substantial improvements in addressing these issues within the EV charging sector in different urban scenarios. This study emphasized the importance of utilizing data science and AI in urban systems. ![ey-electric-car-charging-station-on-london-street jpg rendition 450 300](https://github.com/user-attachments/assets/5f982f80-15c2-4db4-99d8-14fe97f91b03) "
+excerpt: "IW project worked with Prof. Dipti Srinivasan. In this study, deep clustering, LSTM networks, and collaborative filtering techniques were employed for clustering user behaviours and predicting energy demands in electric vehicle (EV) charging stations. Additionally, the user interface (UI) requires enhancements to better serve our primary stakeholders, the users and generators. Furthermore, the exploration of novel algorithms could offer substantial improvements in addressing these issues within the EV charging sector in different urban scenarios. This study emphasized the importance of utilizing data science and AI in urban systems. 
+
+![ey-electric-car-charging-station-on-london-street jpg rendition 450 300](https://github.com/user-attachments/assets/5f982f80-15c2-4db4-99d8-14fe97f91b03) "
 collection: portfolio
 ---
 **This project is my Independent Work project (IW), with the supervision of Prof. Dipti Srinivasan**
