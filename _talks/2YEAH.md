@@ -2,9 +2,9 @@
 title: "YEAH -- Decentralized Application for Hospitality"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-02-01-talk-2
 location: "Singapore, Hong Kong"
 ---
+
 ## What is YEAH
 The hospitality industry  as a major pillar of the economy promotes tourism and local pan-services. However, hospitality professionals currently face poor information and difficulties in communicating with each other due to the lack of schools offering hospitality programs and the lack of communication channels. There is also a lack of channels for hotels (B&Bs, hostels, luxury hotels, etc.) to communicate their hospitality culture to the outside world.
 
