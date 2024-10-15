@@ -11,14 +11,12 @@ main:
   - title: "Portfolio"
     url: /portfolio/
     
-  - #title: "Startup"
-    #url: /startup/
         
   - #title: "Blog Posts"
     #url: /year-archive/
     
   - title: "Startup"
-    url: /talks/
+    url: /startup/
     
   - title: "CV"
     url: /cv/
