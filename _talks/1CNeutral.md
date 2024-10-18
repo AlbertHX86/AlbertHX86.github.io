@@ -1,10 +1,10 @@
 ---
-title: "CNeutral.io, ESG transition finance startup"
+title: "CNeutral.io, ESG transition finance portfolio management startup"
 collection: talks
 type: "Talk"
 location: "Singapore, London"
 ---
-
+## What is CNeutral
 **This is my work at CNeutral.io. Our startup has already entered the NUS Incubator and is being jointly nurtured by
 the National University of Singapore and the Singapore Agency for Science, Technology, and Research
 (A*STAR).**
