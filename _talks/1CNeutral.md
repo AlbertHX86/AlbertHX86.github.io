@@ -5,7 +5,7 @@ type: "Talk"
 location: "Singapore, London"
 ---
 ## What is CNeutral
-**This is my work at CNeutral.io. Our startup has already entered the NUS Incubator and is being jointly nurtured by
+This is my work at *CNeutral.io*. Our startup has already entered the NUS Incubator and is being jointly nurtured by
 the National University of Singapore and the Singapore Agency for Science, Technology, and Research
 (A*STAR).**
 
