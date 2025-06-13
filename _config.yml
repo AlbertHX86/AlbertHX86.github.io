@@ -24,11 +24,11 @@ author:
   avatar           : "albert.png"
   name             : "Xiao Huang"
   pronouns         : # example: "she/her"  
-  bio              : "Final Year Electrical Engineering Student at NUS"
+  bio              : "Currently a master student at Stanford University, graduated from National University of Singapore"
   location         : "Singapore"
-  employer         : "National University of Singapore"
+  employer         : "Stanford University"
   uri              : # URL
-  email            : "huang_xiao@u.nus.edu" 
+  email            : "huang_xiao@u.nus.edu/ alberthx@stanford.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
