@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming master's student at Stanford University. I graduated from the National University of Singapore (NUS) with Highest Distinction (First Class Honours)
+I am an incoming master's student at Stanford University. I graduated from the National University of Singapore (NUS) with Highest Distinction (First Class Honours).
 
 I am actively seeking opportunities to integrate Industry 4.0 technologies into power system engineering and smart grids. My research interests span energy storage systems, grid resilience improvement, smart grids, sustainable energy forecasting (generation and demand), as well as routing and scheduling problems utilizing AI in urban systems.
 
