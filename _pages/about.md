@@ -15,7 +15,7 @@ Ongoing Research
 ------
 I am currently working on my final year dissertation titled *"Enhancing Grid Resilience and Economic Efficiency through Spatial-Temporal Arbitrage of Mobile Energy Storage Systems (MESS)"* under the supervision of [Professor Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner
 
-I had completed my FYP, and won a Gold Medal from IEEE PES Singapore Chapter for the top FYP.
+**I had completed my FYP, and won a Gold Medal from IEEE PES Singapore Chapter for the top FYP**
 
 
 Previous research experiences
