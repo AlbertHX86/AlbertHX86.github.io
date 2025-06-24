@@ -11,6 +11,8 @@ redirect_from:
 
 Education
 ======
+* MSc in Energy, Stanford University, 2025-2027
+  * Atmosphere and Energy
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
   * Specialization in Industry 4.0
 * B.Eng. in General Engineering, University of Edinburgh, 2020-2021
@@ -24,6 +26,7 @@ Research Experience
 * 2024 ongoing: **Final Year Project**
   * Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage
   * Project is supervised by **Prof. Dipti Srinivasan**
+  * Won a gold medal from IEEE PES Singapore chapter for the top performance in FYP and power systems engineering
 
 * 2024 ongoing: **Research of Energy policies and OSW energy technologies market prediction in APAC**
   * Project is supervised by **Prof. Elizabeth J. Wilson** and **Dr. Tyler A. Hansen** at Dartmouth College
