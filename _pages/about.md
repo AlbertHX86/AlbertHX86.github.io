@@ -13,15 +13,25 @@ I am actively seeking opportunities to integrate Industry 4.0 technologies into 
 
 My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wyman focused on various TMT sectors including sustainable energy, electric vehicles and robotaxis. Currently, I am also working as a product manager for a ESG fintech startup product at CNeutral.io (https://cneutral.io/), a leading ESG portfolio management terminal based in Singapore.
 
-Ongoing Research
+Awards
 ------
-I am currently working on my final year dissertation titled *"Enhancing Grid Resilience and Economic Efficiency through Spatial-Temporal Arbitrage of Mobile Energy Storage Systems (MESS)"* under the supervision of [Professor Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner
-
-**I had completed my FYP, and won a Gold Medal from IEEE PES Singapore Chapter for the top FYP**
-
+IEEE PES Gold Medal
+SP Group Engineering Awards
 
 Previous research experiences
 ------
+
+### Aug 2024 - Apr 2025: *Enhancing Grid Resilience and Economic Efficiency through Spatial-Temporal Arbitrage of Mobile Energy Storage Systems (MESS)*  
+- Completed Final Year Project (FYP) under the supervision of [Prof. Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner.  
+- Developed optimization framework for spatial-temporal arbitrage of Mobile Energy Storage Systems (MESS) to enhance power grid resilience and economic efficiency.  
+- Awarded **Gold Medal for Best FYP** by IEEE PES Singapore Chapter.  
+
+### Jan 2025 - Jul 2025: *Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia*  
+- Modeled ocean energy potential in Indonesian straits, integrating tidal and wave energy for energy transition needs.  
+- Proposed hybrid renewable energy system design combining marine hydrokinetic and conventional generation resources.  
+- Accepted by **PESTC-2025 Singapore (Poster Presentation)**.
+
+
 ### Feb 2024 - Oct 2024: *Research of Energy Policies and OSW Energy Technologies Market Prediction in APAC*
 
 - Conducted research on offshore wind energy (OSW) policies and technology development trends in APAC, covering countries like ASEAN, China, Japan, and Korea.
