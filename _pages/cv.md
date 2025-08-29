@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* MSc in Energy, Stanford University, 2025-2027
+* MSc in Engineering, Stanford University, 2025-2027
   * Atmosphere and Energy
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
-  * Specialization in Industry 4.0
+  * IEEE PES Singapore Chapter Gold Medal winner and winner of SP Group Engineering prize
 * B.Eng. in General Engineering, University of Edinburgh, 2020-2021
 
 Interests
@@ -23,12 +23,16 @@ Interests
 
 Research Experience
 ======
-* 2024 ongoing: **Final Year Project**
+* 2024 -2025: **Final Year Project**
   * Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage
   * Project is supervised by **Prof. Dipti Srinivasan**
   * Won a gold medal from IEEE PES Singapore chapter for the top performance in FYP and power systems engineering
+ 
+* 2025 **Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia**
+  * Accepted by PESTC-2025 Singapore (Poster Presentation)
+  * Modelling of the ocean energy potential of Indonesia straits and proposed plans to utilize tidal and wave energy to meet the energy transistion needs.
 
-* 2024 ongoing: **Research of Energy policies and OSW energy technologies market prediction in APAC**
+* 2024-2025 : **Research of Energy policies and OSW energy technologies market prediction in APAC**
   * Project is supervised by **Prof. Elizabeth J. Wilson** and **Dr. Tyler A. Hansen** at Dartmouth College
   * Researched offshore wind energy policies and technologies development trends among APAC countries, including ASEAN countries, China, Japan and Korea.
 
