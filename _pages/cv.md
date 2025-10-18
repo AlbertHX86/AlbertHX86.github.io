@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* MSc in Engineering, Stanford University, 2025-2027
+* MS in Engineering, Stanford University, 2025-2027
   * Atmosphere and Energy
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
   * IEEE PES Singapore Chapter Gold Medal winner and winner of SP Group Engineering prize
