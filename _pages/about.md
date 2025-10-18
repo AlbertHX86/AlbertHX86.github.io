@@ -11,7 +11,7 @@ I am a Master student at Stanford University. I graduated from the National Univ
 
 I am actively seeking opportunities to integrate Industry 4.0 technologies into power system engineering and LLMs. My research interests span LLM development (agents, RAG), energy storage systems, grid resilience improvement, smart grids, sustainable energy forecasting (generation and demand), as well as routing and scheduling problems utilizing AI in urban systems.
 
-My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wyman focused on various TMT sectors including sustainable energy, electric vehicles and robotaxis. Currently, I am also working as a product manager for a ESG fintech startup product at CNeutral.io (https://cneutral.io/), a leading ESG portfolio management terminal based in Singapore.
+My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wyman focused on various TMT sectors including sustainable energy, electric vehicles and robotaxis. Currently, I am also working as a product manager for a ESG fintech startup product at CNeutral.io, a leading ESG portfolio management terminal based in Singapore.
 
 Awards
 ------
