@@ -39,7 +39,9 @@ Previous research experiences
 
 ### Jul 2025 - Oct 2025: *LLM based grid resilience improvement*
 - IEEE TII under review
-
+  
+### Jun 2024 - Oct 2024: *Tsinghua University 3E Center*
+- Worked as a research assistant for a short term research on MESS opportunities in China
 
 ### Feb 2024 - Oct 2024: *Research of Energy Policies and OSW Energy Technologies Market Prediction in APAC*
 
@@ -53,9 +55,11 @@ Previous research experiences
 - Performed data manipulation on ACN-Data from Caltech and developed a deep-clustering algorithm for user segmentation based on behavioral patterns.
 - Developed and implemented RNN models (LSTM, GRU), and proposed a CNN-Bi-LSTM architecture improving prediction accuracy by 20%.
 - Supervised by IEEE Fellow Prof. Dr. Dipti Srinivasan, Conference paper submitted.
+- IW presentations
 
 ### Aug 2022 - Aug 2023: *Clustering Algorithm Improvement for Smart Grids*
 
 - Developed and applied Bayesian clustering algorithms to EV charging session data to unveil distinct user behaviors.
 - Improved Gaussian Mixture Model (GMM) performance, enhancing clustering accuracy and computational efficiency for TOU dynamic pricing.
 - Supervised by A/P. Dr. Xiang Cheng at NUS.
+- UROP presentations
