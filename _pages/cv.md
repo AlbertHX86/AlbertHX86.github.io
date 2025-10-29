@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * MS in Engineering, Stanford University, 2025-2027
+- Transformers and Large Language Models, Agentic Data Science for Engineering Systems
   
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
 
