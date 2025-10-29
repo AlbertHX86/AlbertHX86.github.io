@@ -14,7 +14,7 @@ Education
 * MS in Engineering, Stanford University, 2025-2027
   
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
-  * IEEE PES Singapore Chapter Gold Medal winner and winner of SP Group Engineering prize
+* 
 * B.Eng. in General Engineering, University of Edinburgh, 2020-2021
 
 Interests
