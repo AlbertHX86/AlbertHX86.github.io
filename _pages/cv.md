@@ -24,7 +24,7 @@ Interests
 Research Experience
 ======
 * 2024 -2025: **Final Year Project**
-  * Enhancing Grid Resilience and Economic Efficiency through spatial-temporal Arbitrage of Mobile Energy Storage
+  * Enhancing Grid Resilience through spatial-temporal routing and planning of Mobile Energy Storage
   * Project is supervised by **Prof. Dipti Srinivasan**
   * Won a gold medal from IEEE PES Singapore chapter for the top performance in FYP and power systems engineering
  
