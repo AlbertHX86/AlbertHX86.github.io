@@ -16,6 +16,7 @@ My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wy
 Awards
 ------
 IEEE PES Gold Medal
+
 SP Group Engineering Awards
 
 Previous research experiences
@@ -24,12 +25,18 @@ Previous research experiences
 ### Aug 2024 - Apr 2025: *Enhancing Grid Resilience and Economic Efficiency through Spatial-Temporal Arbitrage of Mobile Energy Storage Systems (MESS)*  
 - Completed Final Year Project (FYP) under the supervision of [Prof. Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner.  
 - Developed optimization framework for spatial-temporal arbitrage of Mobile Energy Storage Systems (MESS) to enhance power grid resilience and economic efficiency.  
-- Awarded **Gold Medal for Best FYP** by IEEE PES Singapore Chapter.  
+- Awarded **Gold Medal for Best FYP** by IEEE PES Singapore Chapter, under review by IEEE TSTE
 
 ### Jan 2025 - Jul 2025: *Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia*  
 - Modeled ocean energy potential in Indonesian straits, integrating tidal and wave energy for energy transition needs.  
 - Proposed hybrid renewable energy system design combining marine hydrokinetic and conventional generation resources.  
 - Accepted by **PESTC-2025 Singapore (Poster Presentation)**.
+
+### Jan 2025 - Jul 2025: *DRL Solar PV power output and uncertainty model design*
+- Accepted by IEEE PES International Meeting 2026
+
+### Jul 2025 - Oct 2025: LLM based grid resilience improvement
+- IEEE TII under review
 
 
 ### Feb 2024 - Oct 2024: *Research of Energy Policies and OSW Energy Technologies Market Prediction in APAC*
