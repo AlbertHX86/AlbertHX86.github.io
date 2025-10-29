@@ -15,7 +15,11 @@ My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wy
 
 Awards
 ------
-IEEE PES Gold Medal SP Group Engineering Award
+IEEE PES Gold Medal 
+
+SP Group Engineering Award
+
+Dean's List
 
 Previous research experiences
 ------
