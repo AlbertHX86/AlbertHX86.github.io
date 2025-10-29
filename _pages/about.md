@@ -20,9 +20,9 @@ IEEE PES Gold Medal SP Group Engineering Award
 Previous research experiences
 ------
 
-### Aug 2024 - Apr 2025: *Enhancing Grid Resilience and Economic Efficiency through Spatial-Temporal Arbitrage of Mobile Energy Storage Systems (MESS)*  
+### Aug 2024 - Apr 2025: *Enhancing Grid Resilience through Spatial-Temporal Scheduling of Mobile Energy Storage Systems (MESS)*  
 - Completed Final Year Project (FYP) under the supervision of [Prof. Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner.  
-- Developed optimization framework for spatial-temporal arbitrage of Mobile Energy Storage Systems (MESS) to enhance power grid resilience and economic efficiency.  
+- Developed optimization framework for spatial-temporal pre and post desaster scheduling model of Mobile Energy Storage Systems (MESS) to enhance power grid resilience and economic efficiency. Improve the off-grid microgrid from the perspective of several power system indicators.
 - Awarded **Gold Medal for Best FYP** by IEEE PES Singapore Chapter, under review by IEEE TSTE
 
 ### Jan 2025 - Jul 2025: *Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia*  
