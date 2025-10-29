@@ -19,7 +19,7 @@ Education
 
 Interests
 ======
-**Energy systems, Sustainable Energy Forecasting, Operations research, AI for urban systems, Energy market and policy**
+**Large Language Models, Energy systems, Sustainable Energy Forecasting, Operations research, AI for urban systems, Energy market and policy**
 
 Research Experience
 ======
