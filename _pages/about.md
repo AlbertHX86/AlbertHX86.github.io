@@ -15,9 +15,7 @@ My previous internships at Roland Berger, Ernst & Young Parthenon, and Oliver Wy
 
 Awards
 ------
-IEEE PES Gold Medal
-
-SP Group Engineering Awards
+IEEE PES Gold Medal SP Group Engineering Award
 
 Previous research experiences
 ------
@@ -35,7 +33,7 @@ Previous research experiences
 ### Jan 2025 - Jul 2025: *DRL Solar PV power output and uncertainty model design*
 - Accepted by IEEE PES International Meeting 2026
 
-### Jul 2025 - Oct 2025: LLM based grid resilience improvement
+### Jul 2025 - Oct 2025: *LLM based grid resilience improvement*
 - IEEE TII under review
 
 
