@@ -27,7 +27,7 @@ Research Experience
 * 2024 -2025: **Final Year Project**
   * Enhancing Grid Resilience through spatial-temporal pre-disaster and post-disaster routing and planning of Mobile Energy Storage
   * Project is supervised by **Prof. Dipti Srinivasan**
-  * Won a gold medal from IEEE PES Singapore chapter for the top performance in FYP and power systems engineering
+  * Won a gold medal from IEEE PES Singapore chapter for the top performance in FYP and power systems engineering, under-review by IEEE TSTE
  
 * 2025 **Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia**
   * Accepted by PESTC-2025 Singapore (Poster Presentation)
