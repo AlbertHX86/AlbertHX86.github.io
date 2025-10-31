@@ -46,6 +46,10 @@ Research Experience
 
 Work experience
 ======
+* 2023-2025: Product Manager and LLM Engineer, **CNeutral.io**
+  * UIUX design and programming for the products with Figma and Node.js and Django framework
+  * LLM tuning and integration
+  * consuter relationship building and maintaining
 * 2023 H2, 2024 Spring: Project Intern, Part-time Assistant (PTA), **Roland Berger**
   * Client companies: Energy sectors, NEV/EV OEMs, Robotaxi
   * Developed research reports for the client companies from the perspective of strategy
