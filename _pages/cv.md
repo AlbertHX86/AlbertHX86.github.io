@@ -12,11 +12,14 @@ redirect_from:
 Education
 ======
 * MS in Engineering, Stanford University, 2025-2027
-- Transformers and Large Language Models, Agentic Data Science for Engineering Systems
+  * Transformers and Large Language Models, Agentic Data Science for Engineering Systems
   
 * B.Eng. in Electrical Engineering, National University of Singapore, 2021-2025
+  * Power electronics, smart grids, grid technologies, machine learning, ODE/PDE, Engineering calculus, linear algebra, statistics/probability theory
+  * Student Member of IEEE PES
 
 * B.Eng. in General Engineering, University of Edinburgh, 2020-2021
+  * Engineering design, Engineering Mathematics, Haskell, Computing logics and algorithms
 
 Interests
 ======
