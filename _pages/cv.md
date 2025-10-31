@@ -24,6 +24,8 @@ Interests
 
 Research Experience
 ======
+* 2025 at Stanford: **LLM developement for wind turbines scenario generation**
+  * under-review by IEEE TII
 * 2024 -2025: **Final Year Project**
   * Enhancing Grid Resilience through spatial-temporal pre-disaster and post-disaster routing and planning of Mobile Energy Storage
   * Project is supervised by **Prof. Dipti Srinivasan**
