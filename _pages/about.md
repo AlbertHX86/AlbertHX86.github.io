@@ -46,7 +46,7 @@ Previous research experiences
 ### Jan 2025 - Jul 2025: *Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia*  
 - Modeled ocean energy potential in Indonesian straits, integrating tidal and wave energy for energy transition needs.  
 - Proposed hybrid renewable energy system design combining marine hydrokinetic and conventional generation resources.  
-- Accepted by **IEEE PSETC 2025 (Poster Presentation)**, co-first author.
+- Published at **IEEE PSETC 2025 (Poster Presentation)**, co-first author: [View on IEEE Xplore](https://doi.org/10.1109/PSETC65535.2025.11239106)
 
 ### 2025: *Linearized Interval Power Flow for Distribution Networks under DG Uncertainty*
 - Fast affine arithmetic approach; accepted by **IEEE PESIM 2026 (Oral)**, co-author
