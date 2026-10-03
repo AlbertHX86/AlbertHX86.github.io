@@ -15,14 +15,12 @@ I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI a
 
 Work experience
 ------
-* <img src="/images/logos/bai.png" alt="BAI Capital" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**BAI Capital**, Investment Analyst Intern (Jun 2026 - Present): investment research on AI and WAMs
-* <img src="/images/logos/bytedance.png" alt="ByteDance" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**ByteDance**, AI Product Manager Intern (Apr 2026 - Jun 2026): R&D features for AIME, ByteDance's largest internal multi-agent system; internal developer MAU past 100K
-* <span style="display:inline-block;width:22px;margin-right:6px;"></span>**CNeutral.io**, ML / Product Manager Intern (Mar 2024 - Apr 2025): built an LLM-based ESG decision platform from 0 to 1 at an NUS and A\*STAR incubated startup
-* <img src="/images/logos/leetcode.png" alt="LeetCode" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**LeetCode**, Product Manager Intern (Apr 2023 - Aug 2023): recommendation and feed ranking, 5x PV-CTR
-* <img src="/images/logos/rolandberger.png" alt="Roland Berger" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Roland Berger**, PTA (Dec 2022 - Feb 2024): TMT overseas expansion, strategy and operations consulting
-* <img src="/images/logos/ey.png" alt="EY" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Ernst & Young Parthenon**, Consulting Intern (Apr 2022 - Aug 2022): overseas expansion for a top Chinese EV OEM
-
-See the [CV](/cv/) for details.
+* <img src="/images/logos/bai.png" alt="BAI Capital" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**BAI Capital**, Investment Analyst Intern (Jun 2026 - Present)
+* <img src="/images/logos/bytedance.png" alt="ByteDance" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**ByteDance**, AI Product Manager -- Devs and Ops (Mar 2026 - Jul 2026)
+* <span style="display:inline-block;width:22px;margin-right:6px;"></span>**CNeutral.io**, ML / Product Manager Intern (Mar 2024 - Apr 2025)
+* <img src="/images/logos/leetcode.png" alt="LeetCode" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**LeetCode**, Product Manager Intern (Apr 2023 - Aug 2023)
+* <img src="/images/logos/rolandberger.png" alt="Roland Berger" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Roland Berger**, PTA (Dec 2022 - Feb 2024)
+* <img src="/images/logos/ey.png" alt="EY" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Ernst & Young Parthenon**, Consulting Intern (Apr 2022 - Aug 2022)
 
 Awards
 ------
