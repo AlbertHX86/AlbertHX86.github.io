@@ -83,6 +83,18 @@ An evaluation platform I designed and built for text-to-video (T2V) generation m
 
 A visual analysis workbench for equipment control panels. Upload a photo or take one with your camera, and a multimodal AI model reads the image directly, explaining each switch, indicator light and display, and flagging anything it can't read clearly. You can then ask follow-up questions about the panel and export the explanation as TXT or DOCX.
 
+### [Same Reference, Different Geometry](https://gsssfeyu.qwenwork.host/)
+<style>@keyframes projfade2{0%{opacity:0}5%{opacity:1}50%{opacity:1}55%{opacity:0}100%{opacity:0}}</style>
+<div class="proj-win"><a href="https://gsssfeyu.qwenwork.host/" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">gsssfeyu.qwenwork.host · Same Reference, Different Geometry</span></div>
+<div class="proj-view" style="background:#141517;">
+<img src="/images/projects/srdg-hero.jpg" alt="Same Reference, Different Geometry: title" style="animation:projfade2 8s infinite;animation-delay:0s;">
+<img src="/images/projects/srdg-compare.jpg" alt="Same Reference, Different Geometry: Meshy vs GPT-6 + Blender comparison" style="animation:projfade2 8s infinite;animation-delay:4s;">
+<span class="proj-cta">Open live demo ↗</span>
+</div></a></div>
+
+An interactive comparison of two ways to turn a single reference image into a 3D model. For 9 objects, from the Mona Lisa and a wicker basket to soapy hands and a warship, it puts Meshy's one-shot model side by side with a model built by GPT-6 driving Blender and refined over several rounds of plain-language feedback. Every model can be rotated in the browser, and each round shows the prompt that produced it.
+
 ## <i class="fas fa-flask"></i> Research experience
 {: .hp-sec #research-experience}
 
