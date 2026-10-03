@@ -41,6 +41,7 @@ Previous research experiences
 - Completed Final Year Project (FYP) under the supervision of [Prof. Dipti Srinivasan](https://cde.nus.edu.sg/ece/staff/dipti-srinivasan/) and Dr. Can Berk Saner.  
 - Developed optimization framework for spatial-temporal pre and post desaster scheduling model of Mobile Energy Storage Systems (MESS) to enhance off-grid power grid resilience. Improve the off-grid microgrid from the perspective of several power system indicators.
 - Awarded **Gold Medal for Best FYP** by IEEE PES Singapore Chapter; paper under review at IEEE Transactions on Sustainable Energy (**IEEE I&CPS Best Oral**)
+- Conference paper published at **IEEE/IAS I&CPS Asia 2026**: [Spatio-Temporal Dispatch of Mobile Energy Storage Systems for Resilient Off-Grid Microgrids](https://doi.org/10.1109/ICPSASIA70813.2026.11692244)
 
 ### Jan 2025 - Jul 2025: *Marine Hydrokinetic Hybrid Renewable Energy System Design for Indonesia*  
 - Modeled ocean energy potential in Indonesian straits, integrating tidal and wave energy for energy transition needs.  
