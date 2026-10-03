@@ -25,6 +25,30 @@ Work experience
 Projects
 ------
 ### [Video Generation Bench](https://2dn6bddf.qwenwork.host/)
+<style>
+.proj-win{border:1px solid #d9dce1;border-radius:12px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.12);margin:12px 0 18px;background:#fff;transition:transform .2s,box-shadow .2s}
+.proj-win:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(0,0,0,.18)}
+.proj-bar{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#f1f3f5;border-bottom:1px solid #e3e5e8}
+.proj-bar i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.proj-url{flex:1;margin-left:10px;background:#fff;border-radius:6px;padding:3px 10px;font-size:12px;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.proj-view{position:relative;aspect-ratio:16/10;overflow:hidden;background:#fff}
+.proj-view img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;animation:projfade 12s infinite}
+.proj-view img:nth-child(1){animation-delay:0s}
+.proj-view img:nth-child(2){animation-delay:4s}
+.proj-view img:nth-child(3){animation-delay:8s}
+@keyframes projfade{0%{opacity:0}4%{opacity:1}33%{opacity:1}37%{opacity:0}100%{opacity:0}}
+.proj-cta{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.78);color:#fff;font-size:13px;padding:6px 12px;border-radius:999px}
+.proj-win a,.proj-win a:hover{text-decoration:none;border:0}
+</style>
+<div class="proj-win"><a href="https://2dn6bddf.qwenwork.host/" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">2dn6bddf.qwenwork.host · Video Generation Bench</span></div>
+<div class="proj-view">
+<img src="/images/projects/vgb-benchmark.jpg" alt="Video Generation Bench: benchmark prompt selection">
+<img src="/images/projects/vgb-video.jpg" alt="Video Generation Bench: generated video samples">
+<img src="/images/projects/vgb-elo.jpg" alt="Video Generation Bench: blind Elo comparison">
+<span class="proj-cta">Open live demo ↗</span>
+</div></a></div>
+
 An evaluation platform I designed and built for text-to-video (T2V) generation models. It pairs an 8-dimension scoring rubric with blind head-to-head Elo voting, so it shows both *where* a model is weak and *which* model people actually prefer.
 
 - **Workflow:** choose a built-in prompt or upload a custom CSV / JSON benchmark, upload videos or generate them through an OpenAI-compatible API, then let an LLM judge agent score each video on a 1.0-5.0 scale. The judge cites evidence for each score and returns N/A instead of guessing when a dimension can't be judged.
@@ -32,7 +56,6 @@ An evaluation platform I designed and built for text-to-video (T2V) generation m
 - **Current study:** compares Seedance 2.0 Pro, Seedance 2.5, Kling 3.0, MiniMax-H3 and HappyHorse 1.1, with 10 human raters and 6 AI judges (Qwen and GLM-5V models).
 - **Grounding:** builds on VBench, VBench-2.0, T2V-CompBench and Video Arena, and addresses gaps they leave in diagnosing failures and covering Chinese-language use cases.
 
-[Try it live](https://2dn6bddf.qwenwork.host/)
 
 Awards
 ------
