@@ -73,6 +73,16 @@ I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI a
 
 An evaluation platform I designed and built for text-to-video (T2V) generation models. It pairs an 8-dimension scoring rubric with blind head-to-head Elo voting, so it shows both *where* a model is weak and *which* model people actually prefer.
 
+### [Panel Intelligence](https://hmm5s69m.qwenwork.host/)
+<div class="proj-win"><a href="https://hmm5s69m.qwenwork.host/" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">hmm5s69m.qwenwork.host · Panel Intelligence</span></div>
+<div class="proj-view">
+<img src="/images/projects/pi-workbench.jpg" alt="Panel Intelligence: visual analysis workbench" style="animation:none;opacity:1;">
+<span class="proj-cta">Open live demo ↗</span>
+</div></a></div>
+
+A visual analysis workbench for equipment control panels. Upload a photo or take one with your camera, and a multimodal AI model reads the image directly, explaining each switch, indicator light and display, and flagging anything it can't read clearly. You can then ask follow-up questions about the panel and export the explanation as TXT or DOCX.
+
 ## <i class="fas fa-flask"></i> Research experience
 {: .hp-sec #research-experience}
 
