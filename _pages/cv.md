@@ -69,4 +69,6 @@ Startup experience
  
 Service and leadership
 ======
-* 2024 - : Community Activities for Seniors @ SG Cares
+* 2024 - : Peer Tutor, **IEEE-HKN**
+* 2024 - : Volunteer, **IEEE PES**
+* 2024 - 2025: Community Activities for Seniors @ SG Cares
