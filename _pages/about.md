@@ -13,6 +13,17 @@ My research focuses on **agents and multi-agent systems (MAS) for energy systems
 
 I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI and WAMs. Before that I was an AI Product Manager intern at **ByteDance**, working on AIME, ByteDance's largest internal multi-agent system, where the R&D pipeline features I built pushed internal developer MAU past 100K. Earlier, I was an ML / Product Manager intern at **CNeutral.io**, an NUS and A\*STAR incubated AI-for-finance startup, where I built an LLM-based ESG decision platform from 0 to 1. I was also a product manager intern at **LeetCode** (recommendation and feed ranking, 5x PV-CTR), and worked at **Roland Berger**, Ernst & Young Parthenon and Oliver Wyman on TMT, EV and energy projects.
 
+Work experience
+------
+* <img src="/images/logos/bai.png" alt="BAI Capital" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**BAI Capital**, Investment Analyst Intern (Jun 2026 - Present): investment research on AI and WAMs
+* <img src="/images/logos/bytedance.png" alt="ByteDance" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**ByteDance**, AI Product Manager Intern (Apr 2026 - Jun 2026): R&D features for AIME, ByteDance's largest internal multi-agent system; internal developer MAU past 100K
+* <span style="display:inline-block;width:22px;margin-right:6px;"></span>**CNeutral.io**, ML / Product Manager Intern (Mar 2024 - Apr 2025): built an LLM-based ESG decision platform from 0 to 1 at an NUS and A\*STAR incubated startup
+* <img src="/images/logos/leetcode.png" alt="LeetCode" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**LeetCode**, Product Manager Intern (Apr 2023 - Aug 2023): recommendation and feed ranking, 5x PV-CTR
+* <img src="/images/logos/rolandberger.png" alt="Roland Berger" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Roland Berger**, PTA (Dec 2022 - Feb 2024): TMT overseas expansion, strategy and operations consulting
+* <img src="/images/logos/ey.png" alt="EY" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">**Ernst & Young Parthenon**, Consulting Intern (Apr 2022 - Aug 2022): overseas expansion for a top Chinese EV OEM
+
+See the [CV](/cv/) for details.
+
 Awards
 ------
 IEEE PES Singapore Undergraduate Gold Medal
