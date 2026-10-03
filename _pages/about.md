@@ -48,8 +48,8 @@ Previous research experiences
 - Proposed hybrid renewable energy system design combining marine hydrokinetic and conventional generation resources.  
 - Published at **IEEE PSETC 2025 (Poster Presentation)**, co-first author: [View on IEEE Xplore](https://doi.org/10.1109/PSETC65535.2025.11239106)
 
-### 2025: *Linearized Interval Power Flow for Distribution Networks under DG Uncertainty*
-- Fast affine arithmetic approach; accepted by **IEEE PESIM 2026 (Oral)**, co-author
+### 2025: *Linearized Interval Power Flow in Distribution Grids Under DER Uncertainty*
+- Fast affine arithmetic approach; published at **IEEE PES International Meeting 2026 (Oral)**, co-author: [View on IEEE Xplore](https://doi.org/10.1109/PESIM67009.2026.11438567)
 
 ### 2025: *LLM-driven Wind Turbine Icing Scenario Generation*
 - Under review at IEEE Transactions on Instrumentation and Measurement, co-author
