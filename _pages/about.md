@@ -32,7 +32,7 @@ Previous research experiences
 - Framework for defect localization and grouping; under review at **Solar Energy** (Elsevier), first author
 
 ### 2026: *Day-ahead PV Forecasting with a Physics-guided Transformer*
-- Accepted by **IEEE APPEEC 2026**, first author
+- Accepted by **IEEE APPEEC 2026**, first author: [read the manuscript](/publication/2026-08-01-pv-physics-guided-transformer)
 
 ### 2026: *Visual Token Pruning in Vision-Language Navigation*
 - Semantic coverage and sparse transport; under review at **ICLR**, co-author
