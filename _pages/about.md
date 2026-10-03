@@ -51,10 +51,6 @@ Projects
 
 An evaluation platform I designed and built for text-to-video (T2V) generation models. It pairs an 8-dimension scoring rubric with blind head-to-head Elo voting, so it shows both *where* a model is weak and *which* model people actually prefer.
 
-- **Workflow:** choose a built-in prompt or upload a custom CSV / JSON benchmark, upload videos or generate them through an OpenAI-compatible API, then let an LLM judge agent score each video on a 1.0-5.0 scale. The judge cites evidence for each score and returns N/A instead of guessing when a dimension can't be judged.
-- **Scoring:** human scores are normalized per rater and per dimension, then fused with AI-judge scores (0.4 human + 0.6 AI). Preferences are aggregated with Elo / Bradley-Terry.
-- **Current study:** compares Seedance 2.0 Pro, Seedance 2.5, Kling 3.0, MiniMax-H3 and HappyHorse 1.1, with 10 human raters and 6 AI judges (Qwen and GLM-5V models).
-- **Grounding:** builds on VBench, VBench-2.0, T2V-CompBench and Video Arena, and addresses gaps they leave in diagnosing failures and covering Chinese-language use cases.
 
 
 Awards
