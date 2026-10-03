@@ -27,7 +27,9 @@ Interests
 
 Work experience
 ======
-* Apr 2026 - Jun 2026: AI Product Manager Intern, **ByteDance** (Beijing)
+* <img src="/images/logos/bai.png" alt="BAI Capital" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">Jun 2026 - Present: Investment Analyst Intern, **BAI Capital**
+  * Investment research focused on AI and WAMs
+* <img src="/images/logos/bytedance.png" alt="ByteDance" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">Apr 2026 - Jun 2026: AI Product Manager Intern, **ByteDance** (Beijing)
   * Joined **AIME**, ByteDance's largest internal multi-agent system; owned R&D MAS features across CI/CD, testing, preview and natural-language code changes
   * Agent architecture: surveyed agent structures, harnesses and container orchestration; re-architected an in-house Claw-style IM multi-agent product for faster, more stable operation
   * R&D pipeline integration: integrated internal cloud R&D pipelines (CI/CD, testing, preview) into the product, driving internal developer **MAU past 100K**
@@ -39,15 +41,15 @@ Work experience
   * Built a RAG system on llama-parse and GPT-4o/GPT-4 for semantic parsing of market reports; applied system dynamics to turn qualitative indicators into quantitative data
   * Wrote PRDs and Figma prototypes; shipped a Django + React platform; iterated SFT and preference alignment to reach launch standards
   * Led product BD with universities, investors and sovereign funds; took part in **Pre-seed and Seed rounds** and entry into the **NUS tech incubator**
-* Apr 2023 - Aug 2023: Product Manager Intern, **LeetCode** (Shanghai / Palo Alto)
+* <img src="/images/logos/leetcode.png" alt="LeetCode" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">Apr 2023 - Aug 2023: Product Manager Intern, **LeetCode** (Shanghai / Palo Alto)
   * Improved the homepage recommender with systems-engineering and ML methods, raising homepage and problem-page **PV-CTR 5x**
   * Rebuilt gravity feed ranking via system dynamics; ran parameter trials and A/B tests
   * Tuned new-user cold start and re-ranking strategies with engineering
   * Designed new consumer features from user research to Figma prototypes, PRDs, tracking and A/B-tested metrics
-* Dec 2022 - Feb 2024: PTA (2023H2 / 2024H1), **Roland Berger** (Shanghai)
+* <img src="/images/logos/rolandberger.png" alt="Roland Berger" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">Dec 2022 - Feb 2024: PTA (2023H2 / 2024H1), **Roland Berger** (Shanghai)
   * Three project teams in Beijing and Shanghai on TMT overseas expansion, strategic planning and operations consulting
   * NEV market desk research and overseas competitor teardowns (smart cockpit, battery, HMI); brand-marketing plays; expert interviews and cold calls
-* Apr 2022 - Aug 2022: Consulting Intern, **Ernst & Young Parthenon**
+* <img src="/images/logos/ey.png" alt="EY" style="height:22px;width:22px;vertical-align:middle;margin-right:6px;border-radius:4px;">Apr 2022 - Aug 2022: Consulting Intern, **Ernst & Young Parthenon**
   * Client company: A Chinese Top EV OEM
   * Successfully facilitated the company go abroad and profit at the target market
 

@@ -11,7 +11,7 @@ I am a Master student at Stanford University. I graduated from the National Univ
 
 My research focuses on **agents and multi-agent systems (MAS) for energy systems**. I also work on LLMs, vision-language models for photovoltaic inspection, renewable energy forecasting, energy storage and grid resilience.
 
-Most recently I was an AI Product Manager intern at **ByteDance**, working on AIME, ByteDance's largest internal multi-agent system, where the R&D pipeline features I built pushed internal developer MAU past 100K. Before that I was an ML / Product Manager intern at **CNeutral.io**, an NUS and A\*STAR incubated AI-for-finance startup, where I built an LLM-based ESG decision platform from 0 to 1. I was also a product manager intern at **LeetCode** (recommendation and feed ranking, 5x PV-CTR), and worked at **Roland Berger**, Ernst & Young Parthenon and Oliver Wyman on TMT, EV and energy projects.
+I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI and WAMs. Before that I was an AI Product Manager intern at **ByteDance**, working on AIME, ByteDance's largest internal multi-agent system, where the R&D pipeline features I built pushed internal developer MAU past 100K. Earlier, I was an ML / Product Manager intern at **CNeutral.io**, an NUS and A\*STAR incubated AI-for-finance startup, where I built an LLM-based ESG decision platform from 0 to 1. I was also a product manager intern at **LeetCode** (recommendation and feed ranking, 5x PV-CTR), and worked at **Roland Berger**, Ernst & Young Parthenon and Oliver Wyman on TMT, EV and energy projects.
 
 Awards
 ------
