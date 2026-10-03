@@ -7,5 +7,4 @@ date: 2026-09-02
 venue: 'ICLR'
 status: 'Under review'
 excerpt: 'Co-author.'
-authorship: 'Co-author'
 ---

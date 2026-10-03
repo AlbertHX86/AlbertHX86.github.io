@@ -8,9 +8,6 @@ venue: '2026 IEEE/IAS Industrial and Commercial Power System Asia (I&CPS Asia)'
 status: 'Published'
 excerpt: 'Second and corresponding author. [View on IEEE Xplore](https://doi.org/10.1109/ICPSASIA70813.2026.11692244)'
 citation: 'Y. Liang, X. Huang, K. Wang and D. Srinivasan, "Spatio-Temporal Dispatch of Mobile Energy Storage Systems for Resilient Off-Grid Microgrids," <i>2026 IEEE/IAS Industrial and Commercial Power System Asia (I&CPS Asia)</i>, 2026, pp. 478-483, doi: <a href="https://doi.org/10.1109/ICPSASIA70813.2026.11692244">10.1109/ICPSASIA70813.2026.11692244</a>.'
-authorship: 'Second & corresponding author'
-link: 'https://doi.org/10.1109/ICPSASIA70813.2026.11692244'
-link_label: 'DOI'
 ---
 
 **[View on IEEE Xplore (DOI: 10.1109/ICPSASIA70813.2026.11692244)](https://doi.org/10.1109/ICPSASIA70813.2026.11692244)**
