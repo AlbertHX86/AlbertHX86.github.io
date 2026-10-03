@@ -7,4 +7,5 @@ date: 2026-09-01
 venue: 'Solar Energy (Elsevier, JCR Q2)'
 status: 'Under review'
 excerpt: 'First author.'
+authorship: 'First author'
 ---

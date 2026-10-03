@@ -7,4 +7,5 @@ date: 2025-06-01
 venue: 'IEEE Transactions on Sustainable Energy (JCR Q1)'
 status: 'Under review'
 excerpt: 'First author. IEEE I&CPS Best Oral.'
+authorship: 'First author · IEEE I&CPS Best Oral'
 ---

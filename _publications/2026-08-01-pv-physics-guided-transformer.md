@@ -9,6 +9,9 @@ status: 'Accepted'
 excerpt: 'First author. [Read the manuscript](/publication/2026-08-01-pv-physics-guided-transformer)'
 paperurl: '/files/Huang_APPEEC2026_manuscript.pdf'
 citation: 'X. Huang, R. Shao, Y. Xiang, S. Gao and D. Srinivasan, "Day-ahead PV Forecasting with a Physics-guided Transformer Model Design," <i>IEEE APPEEC 2026</i>, accepted.'
+authorship: 'First author'
+link: '/publication/2026-08-01-pv-physics-guided-transformer'
+link_label: 'Manuscript'
 ---
 
 **Authors:** Xiao Huang, Rossi Shao, Yue Xiang, Shang Gao, Dipti Srinivasan

@@ -1,0 +1,96 @@
+tagline: "Agents & multi-agent systems for energy systems"
+affiliation: "M.S. student, Stanford University · B.Eng., National University of Singapore"
+bio: >-
+  I build AI systems that work in the real world, from multi-agent R&D platforms at ByteDance
+  to physics-aware forecasting and vision models for solar power. My research focuses on
+  agents and multi-agent systems (MAS) for energy systems, with work on LLMs, PV inspection,
+  renewable forecasting, energy storage and grid resilience.
+
+stats:
+  - value: "8"
+    label: "papers & manuscripts"
+  - value: "100K+"
+    label: "internal developer MAU at ByteDance"
+  - value: "5×"
+    label: "PV-CTR lift at LeetCode"
+  - value: "Top 5%"
+    label: "NUS Highest Distinction"
+
+experience:
+  - company: "BAI Capital"
+    role: "Investment Analyst Intern"
+    dates: "Jun 2026 – Present"
+    logo: "/images/logos/bai.png"
+    tag: "AI · WAMs"
+  - company: "ByteDance"
+    role: "AI Product Manager – Devs and Ops"
+    dates: "Mar 2026 – Jul 2026"
+    logo: "/images/logos/bytedance.png"
+    tag: "Multi-agent systems"
+  - company: "CNeutral.io"
+    role: "ML / Product Manager Intern"
+    dates: "Mar 2024 – Apr 2025"
+    logo:
+    tag: "LLMs · ESG"
+  - company: "LeetCode"
+    role: "Product Manager Intern"
+    dates: "Apr 2023 – Aug 2023"
+    logo: "/images/logos/leetcode.png"
+    tag: "Recommendation"
+  - company: "Roland Berger"
+    role: "PTA"
+    dates: "Dec 2022 – Feb 2024"
+    logo: "/images/logos/rolandberger.png"
+    tag: "Strategy consulting"
+  - company: "Ernst & Young Parthenon"
+    role: "Consulting Intern"
+    dates: "Apr 2022 – Aug 2022"
+    logo: "/images/logos/ey.png"
+    tag: "Strategy consulting"
+
+projects:
+  - title: "Video Generation Bench"
+    url: "https://2dn6bddf.qwenwork.host/"
+    host: "2dn6bddf.qwenwork.host"
+    tags: ["Text-to-video", "LLM-as-judge", "Elo"]
+    description: >-
+      An evaluation platform I designed and built for text-to-video (T2V) generation models.
+      It pairs an 8-dimension scoring rubric with blind head-to-head Elo voting, so it shows
+      both where a model is weak and which model people actually prefer.
+    shots:
+      - "/images/projects/vgb-benchmark.jpg"
+      - "/images/projects/vgb-video.jpg"
+      - "/images/projects/vgb-elo.jpg"
+
+research:
+  - title: "Grid resilience with mobile energy storage (Final Year Project)"
+    dates: "Aug 2024 – Apr 2025"
+    where: "NUS · Prof. Dipti Srinivasan, Dr. Can Berk Saner"
+    text: "Spatial-temporal pre- and post-disaster scheduling of mobile energy storage for off-grid microgrids. IEEE PES Singapore Gold Medal for best FYP; published at IEEE/IAS I&CPS Asia 2026."
+  - title: "Marine hydrokinetic hybrid energy system for Indonesia"
+    dates: "Jan 2025 – Jul 2025"
+    where: "NUS"
+    text: "Modeled tidal and wave energy potential in Indonesian straits and designed a hybrid renewable system. Published at IEEE PSETC 2025."
+  - title: "Mobile energy storage opportunities in China"
+    dates: "Jun 2024 – Oct 2024"
+    where: "Tsinghua University 3E Center"
+    text: "Research assistant on a short-term study of mobile energy storage opportunities in China."
+  - title: "Offshore wind policy and market prediction in APAC"
+    dates: "Feb 2024 – Oct 2024"
+    where: "Dartmouth College · Prof. Elizabeth J. Wilson, Dr. Tyler A. Hansen"
+    text: "Offshore wind policy and technology trends across ASEAN, China, Japan and Korea, with ML and time-series forecasting of market development."
+  - title: "RNN demand forecasting for EV charging grids"
+    dates: "Oct 2023 – Jun 2024"
+    where: "NUS · Prof. Dipti Srinivasan (IEEE Fellow)"
+    text: "Deep clustering for user segmentation on Caltech ACN-Data and a CNN-Bi-LSTM model that improved prediction accuracy by 20%."
+  - title: "Clustering algorithms for smart grids"
+    dates: "Aug 2022 – Aug 2023"
+    where: "NUS · A/P Xiang Cheng"
+    text: "Bayesian clustering and an improved Gaussian Mixture Model for EV charging behavior and time-of-use dynamic pricing."
+
+awards:
+  - "IEEE PES Singapore Undergraduate Gold Medal"
+  - "SP Group Engineering Award"
+  - "Highest Distinction & Dean's List (Top 5%)"
+  - "Singapore MOE Full Scholarship"
+  - "IEEE I&CPS Best Oral"

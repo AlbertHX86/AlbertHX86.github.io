@@ -1,0 +1,167 @@
+---
+layout: compress
+---
+{% include base_path %}
+{% assign h = site.data.home %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% include seo.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="{{ base_path }}/images/favicon.ico">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/landing.css?v=1">
+</head>
+<body class="lp">
+
+<header class="lp-nav">
+  <div class="lp-wrap lp-nav-inner">
+    <a class="lp-brand" href="{{ base_path }}/">Xiao Huang<span>黄骁</span></a>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#research">Research</a>
+      <a href="{{ base_path }}/cv/">CV</a>
+    </nav>
+  </div>
+</header>
+
+<section class="lp-hero">
+  <div class="lp-glow lp-glow-a"></div>
+  <div class="lp-glow lp-glow-b"></div>
+  <div class="lp-wrap lp-hero-inner">
+    <div class="lp-hero-text">
+      <p class="lp-eyebrow">{{ h.tagline }}</p>
+      <h1>Xiao Huang <span>黄骁</span></h1>
+      <p class="lp-affil">{{ h.affiliation }}</p>
+      <p class="lp-bio">{{ h.bio }}</p>
+      <div class="lp-actions">
+        <a class="lp-btn lp-btn-primary" href="mailto:alberthx@stanford.edu">Email me</a>
+        <a class="lp-btn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="lp-btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="lp-hero-photo">
+      <div class="lp-ring"><img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Xiao Huang"></div>
+    </div>
+  </div>
+  <div class="lp-wrap">
+    <div class="lp-stats">
+      {% for s in h.stats %}
+      <div class="lp-stat"><strong>{{ s.value }}</strong><span>{{ s.label }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<main>
+
+<section id="experience" class="lp-section">
+  <div class="lp-wrap">
+    <h2 class="lp-h2"><span>01</span>Experience</h2>
+    <div class="lp-exp">
+      {% for e in h.experience %}
+      <div class="lp-exp-item">
+        <div class="lp-logo">{% if e.logo %}<img src="{{ base_path }}{{ e.logo }}" alt="{{ e.company }}">{% else %}<span>{{ e.company | slice: 0 }}</span>{% endif %}</div>
+        <div class="lp-exp-main">
+          <h3>{{ e.company }}</h3>
+          <p>{{ e.role }}</p>
+        </div>
+        <div class="lp-exp-meta">
+          <span class="lp-chip">{{ e.tag }}</span>
+          <time>{{ e.dates }}</time>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="lp-section lp-alt">
+  <div class="lp-wrap">
+    <h2 class="lp-h2"><span>02</span>Projects</h2>
+    {% for p in h.projects %}
+    <div class="lp-project">
+      <a class="lp-win" href="{{ p.url }}" target="_blank" rel="noopener">
+        <div class="lp-win-bar"><i></i><i></i><i></i><span>{{ p.host }}</span></div>
+        <div class="lp-win-view">
+          {% for s in p.shots %}<img src="{{ base_path }}{{ s }}" alt="{{ p.title }} screenshot {{ forloop.index }}">{% endfor %}
+          <span class="lp-win-cta">Open live demo ↗</span>
+        </div>
+      </a>
+      <div class="lp-project-text">
+        <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a></h3>
+        <p>{{ p.description }}</p>
+        <div class="lp-tags">{% for t in p.tags %}<span class="lp-chip">{{ t }}</span>{% endfor %}</div>
+        <a class="lp-btn lp-btn-primary" href="{{ p.url }}" target="_blank" rel="noopener">Try it live ↗</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="publications" class="lp-section">
+  <div class="lp-wrap">
+    <h2 class="lp-h2"><span>03</span>Publications</h2>
+    {% assign pubs = site.publications | sort: "date" | reverse %}
+    <div class="lp-pubs">
+      {% for p in pubs %}
+      {% assign st = p.status | downcase %}
+      <article class="lp-pub">
+        <div class="lp-pub-top">
+          <span class="lp-status {% if st contains 'published' %}is-pub{% elsif st contains 'accepted' %}is-acc{% else %}is-rev{% endif %}">{{ p.status }}</span>
+          <span class="lp-year">{{ p.date | date: "%Y" }}</span>
+        </div>
+        <h3><a href="{{ base_path }}{{ p.url }}">{{ p.title }}</a></h3>
+        <p class="lp-venue">{{ p.venue }}</p>
+        <div class="lp-pub-foot">
+          <span>{{ p.authorship }}</span>
+          {% if p.link %}<a href="{% if p.link contains '://' %}{{ p.link }}{% else %}{{ base_path }}{{ p.link }}{% endif %}"{% if p.link contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ p.link_label }} →</a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="research" class="lp-section lp-alt">
+  <div class="lp-wrap">
+    <h2 class="lp-h2"><span>04</span>Research experience</h2>
+    <div class="lp-research">
+      {% for r in h.research %}
+      <div class="lp-card">
+        <time>{{ r.dates }}</time>
+        <h3>{{ r.title }}</h3>
+        <p class="lp-where">{{ r.where }}</p>
+        <p>{{ r.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="awards" class="lp-section">
+  <div class="lp-wrap">
+    <h2 class="lp-h2"><span>05</span>Awards</h2>
+    <div class="lp-awards">
+      {% for a in h.awards %}<div class="lp-award"><span>★</span>{{ a }}</div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="lp-footer">
+  <div class="lp-wrap lp-footer-inner">
+    <span>© {{ site.time | date: "%Y" }} Xiao Huang</span>
+    <span>
+      <a href="mailto:alberthx@stanford.edu">alberthx@stanford.edu</a> ·
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
