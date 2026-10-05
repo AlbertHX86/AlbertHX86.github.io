@@ -19,7 +19,43 @@ redirect_from:
 .page__content ul.hp-awards li{margin:.35em 0}
 .page__content ul.hp-awards i{color:#d4a017;width:1.4em}
 .page__content h3.hp-item{font-size:1em;margin:1.6em 0 .4em}
+.page__content{position:relative}
+.hp-toc{display:none}
+@media (min-width:1100px){
+.hp-toc{display:block;position:absolute;top:0;bottom:0;left:calc(100% + 2.6em);width:190px}
+.hp-jump{display:none}
+}
+.hp-toc__inner{position:sticky;top:100px}
+.page__content .hp-toc__title{margin:0 0 .9em;font-size:.66em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9aa8b2}
+.hp-toc__track{position:relative;border-left:2px solid #e8edf2}
+.page__content ul.hp-toc__list{list-style:none;margin:0;padding:0}
+.hp-toc__list li{margin:0}
+.hp-toc__marker{position:absolute;left:-2px;top:0;width:2px;height:0;border-radius:2px;background:#3a8fae;transition:transform .3s ease,height .3s ease}
+.page__content .hp-toc__list a{display:flex;align-items:center;gap:.65em;padding:.38em 0 .38em .9em;font-size:.78em;line-height:1.3;color:#7a8791;text-decoration:none;border:0;transition:color .2s}
+.hp-toc__list a i{display:inline-grid;place-items:center;flex:none;width:1.85em;height:1.85em;border-radius:.5em;background:#f3f6f8;color:#9aa8b2;font-size:.8em;transition:background .2s,color .2s}
+.hp-toc__list a:hover{color:#3a8fae}
+.hp-toc__list a:hover i{color:#3a8fae}
+.hp-toc__list a.is-active{color:#2f3d47;font-weight:600}
+.hp-toc__list a.is-active i{background:#eaf5f9;color:#3a8fae}
+.page__content a.hp-toc__top{display:inline-flex;align-items:center;gap:.45em;margin:1.2em 0 0 .9em;font-size:.72em;color:#9aa8b2;text-decoration:none;border:0}
+.page__content a.hp-toc__top:hover{color:#3a8fae}
 </style>
+<div class="hp-toc">
+<nav class="hp-toc__inner" aria-label="On this page">
+<p class="hp-toc__title">On this page</p>
+<div class="hp-toc__track">
+<span class="hp-toc__marker"></span>
+<ul class="hp-toc__list">
+<li><a href="#about-me" data-sec="about-me"><i class="fas fa-user"></i><span>About me</span></a></li>
+<li><a href="#work-experience" data-sec="work-experience"><i class="fas fa-briefcase"></i><span>Work experience</span></a></li>
+<li><a href="#projects" data-sec="projects"><i class="fas fa-laptop-code"></i><span>Projects</span></a></li>
+<li><a href="#research-experience" data-sec="research-experience"><i class="fas fa-flask"></i><span>Research experience</span></a></li>
+<li><a href="#awards" data-sec="awards"><i class="fas fa-award"></i><span>Awards</span></a></li>
+</ul>
+</div>
+<a class="hp-toc__top" href="#" data-top><i class="fas fa-arrow-up"></i>Back to top</a>
+</nav>
+</div>
 ## <i class="fas fa-user"></i> About me
 {: .hp-sec #about-me}
 I am a Master student at Stanford University. I graduated from the National University of Singapore (NUS) with Highest Distinction (First Class Honours).
@@ -167,3 +203,33 @@ An interactive comparison of two ways to turn a single reference image into a 3D
 * <i class="fas fa-trophy"></i> Singapore MOE Full Scholarship
 * <i class="fas fa-trophy"></i> IEEE I&CPS Best Oral
 {: .hp-awards}
+<script>
+(function(){
+var toc=document.querySelector('.hp-toc');
+if(!toc){return;}
+var links=[].slice.call(toc.querySelectorAll('a[data-sec]'));
+var secs=links.map(function(a){return document.getElementById(a.getAttribute('data-sec'));});
+var marker=toc.querySelector('.hp-toc__marker');
+var current=-1;
+var ticking=false;
+function update(){
+ticking=false;
+var line=window.innerHeight*0.3;
+var idx=0;
+for(var i=0;i<secs.length;i++){if(secs[i]&&secs[i].getBoundingClientRect().top<=line){idx=i;}}
+if(window.innerHeight+window.pageYOffset>=document.documentElement.scrollHeight-4){idx=secs.length-1;}
+if(idx===current&&marker.style.height){return;}
+current=idx;
+links.forEach(function(a,i){a.classList.toggle('is-active',i===idx);});
+var li=links[idx].parentNode;
+marker.style.height=li.offsetHeight+'px';
+marker.style.transform='translateY('+li.offsetTop+'px)';
+}
+function onScroll(){if(!ticking){ticking=true;window.requestAnimationFrame(update);}}
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',function(){marker.style.height='';onScroll();});
+links.forEach(function(a,i){a.addEventListener('click',function(e){var s=secs[i];if(!s){return;}e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:s.getBoundingClientRect().top+window.pageYOffset-90,behavior:'smooth'});if(window.history&&history.replaceState){history.replaceState(null,'','#'+s.id);}});});
+toc.querySelector('[data-top]').addEventListener('click',function(e){e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:0,behavior:'smooth'});});
+update();
+})();
+</script>
