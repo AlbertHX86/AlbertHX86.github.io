@@ -150,6 +150,13 @@ analytics:
     tracking_id          :
 
 
+# Visitor Map - shown at the bottom of the home page once id is set
+visitor_map:
+  provider               : "mapmyvisitors" # "mapmyvisitors" or "clustrmaps"
+  id                     : "FTXmWRYPanskjuoPWU_6693Aqrc4p8HIREgjsJenIlg" # the d= value from the provider's embed code
+  style                  : "globe" # "map" (flat world map) or "globe" (3D globe)
+
+
 # Reading Files
 include:
   - .htaccess

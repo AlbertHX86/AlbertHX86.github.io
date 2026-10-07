@@ -51,6 +51,7 @@ redirect_from:
 <li><a href="#projects" data-sec="projects"><i class="fas fa-laptop-code"></i><span>Projects</span></a></li>
 <li><a href="#research-experience" data-sec="research-experience"><i class="fas fa-flask"></i><span>Research experience</span></a></li>
 <li><a href="#awards" data-sec="awards"><i class="fas fa-award"></i><span>Awards</span></a></li>
+{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors" data-sec="visitors"><i class="fas fa-globe"></i><span>Visitors</span></a></li>{% endif %}
 </ul>
 </div>
 <a class="hp-toc__top" href="#" data-top><i class="fas fa-arrow-up"></i>Back to top</a>
@@ -69,6 +70,7 @@ I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI a
 <li><a href="#projects">Projects</a></li>
 <li><a href="#research-experience">Research experience</a></li>
 <li><a href="#awards">Awards</a></li>
+{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors">Visitors</a></li>{% endif %}
 </ul>
 
 ## <i class="fas fa-briefcase"></i> Work experience
@@ -203,6 +205,12 @@ An interactive comparison of two ways to turn a single reference image into a 3D
 * <i class="fas fa-trophy"></i> Singapore MOE Full Scholarship
 * <i class="fas fa-trophy"></i> IEEE I&CPS Best Oral
 {: .hp-awards}
+{% if site.visitor_map.id and site.visitor_map.id != "" %}
+
+## <i class="fas fa-globe"></i> Visitors
+{: .hp-sec #visitors}
+{% include visitor-map.html %}
+{% endif %}
 <script>
 (function(){
 var toc=document.querySelector('.hp-toc');
