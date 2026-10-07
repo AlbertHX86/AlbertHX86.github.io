@@ -10,15 +10,16 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Portfolio"
-    url: /portfolio/
-    
-        
-  - #title: "Blog Posts"
-    #url: /year-archive/
-    
-  - title: "Startup"
-    url: /talks/
+  # Hidden from the menu; the pages are still built at /portfolio/ and /talks/
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+
+  # - title: "Startup"
+  #   url: /talks/
     
 
 
