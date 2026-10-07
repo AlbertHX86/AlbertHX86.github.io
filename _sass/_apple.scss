@@ -1,0 +1,328 @@
+/* ==========================================================================
+   APPLE-STYLE OVERRIDES
+   Values taken from apple.com CSS:
+   - text #1d1d1f / #6e6e73 / #86868b, fills #f5f5f7 / #e8e8ed, hairline #d2d2d7
+   - links #0066cc, buttons #0071e3 (hover #0077ed), pill radius 980px
+   - nav: 48px, rgba(250, 250, 252, .8) + saturate(180%) blur(20px)
+   - cards (Store .rf-ccard): 18px radius, 2px 4px 12px rgba(0,0,0,.08),
+     hover 2px 4px 16px rgba(0,0,0,.16) + scale(1.01)
+   ========================================================================== */
+
+$apple-blue                 : #0071e3;
+$apple-blue-hover           : #0077ed;
+$apple-fill-hover           : #e8e8ed;
+$apple-footer-link          : #424245;
+$apple-ease                 : cubic-bezier(0, 0, 0.5, 1);
+$apple-card-radius          : 18px;
+$apple-card-shadow          : 2px 4px 12px rgba(0, 0, 0, 0.08);
+$apple-card-shadow-hover    : 2px 4px 16px rgba(0, 0, 0, 0.16);
+
+/*
+   Base type
+   ========================================================================== */
+
+html {
+  @include breakpoint($medium) {
+    font-size: 17px;
+  }
+}
+
+body {
+  line-height: 1.47059;
+  letter-spacing: -0.022em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $darker-gray;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+}
+
+a {
+  color: $link-color;
+}
+
+blockquote {
+  border-left-color: $light-gray;
+  color: $dark-gray;
+}
+
+code {
+  border-radius: 6px;
+}
+
+/*
+   Masthead: translucent glass bar
+   ========================================================================== */
+
+.masthead {
+  height: $masthead-height;
+  background: rgba(250, 250, 252, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 0;
+
+  &__inner-wrap {
+    padding: 0 1em;
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    padding: 0;
+    line-height: $masthead-height;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    -webkit-transition: color 0.24s cubic-bezier(0.4, 0, 0.6, 1);
+            transition: color 0.24s cubic-bezier(0.4, 0, 0.6, 1);
+  }
+
+  .visible-links {
+    li:first-child a {
+      font-size: 17px;
+      font-weight: 600;
+      color: $darker-gray;
+    }
+
+    a:before {
+      display: none;
+    }
+  }
+
+  button {
+    height: $masthead-height;
+    background-color: transparent;
+  }
+
+  .hidden-links {
+    margin-top: 0;
+    padding: 8px 0;
+    border: 0;
+    border-radius: $apple-card-radius;
+    background: rgba(250, 250, 252, 0.92);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: $apple-card-shadow-hover;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+
+    li {
+      border-bottom: 0;
+    }
+
+    a {
+      padding: 0 24px;
+      line-height: 40px;
+      font-size: 17px;
+
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+}
+
+.navicon,
+.navicon:before,
+.navicon:after {
+  background: $darker-gray;
+}
+
+.close .navicon {
+  background: transparent;
+}
+
+/*
+   Buttons: pills
+   ========================================================================== */
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  background-color: $apple-blue;
+  border-radius: 980px;
+
+  &:hover {
+    background-color: $apple-blue-hover;
+  }
+
+  &--inverse {
+    color: $darker-gray !important;
+    background-color: $lighter-gray;
+    border: 0 !important;
+
+    &:hover {
+      color: $darker-gray !important;
+      background-color: $apple-fill-hover;
+    }
+  }
+}
+
+/*
+   Page
+   ========================================================================== */
+
+.page__title {
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: 0.004em;
+
+  @include breakpoint($medium) {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+
+  @include breakpoint($large) {
+    font-size: 48px;
+    line-height: 1.08349;
+    letter-spacing: -0.003em;
+  }
+}
+
+.page__content {
+  h2 {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.archive a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.notice,
+.toc {
+  border-radius: $apple-card-radius;
+}
+
+/*
+   Sidebar author profile
+   ========================================================================== */
+
+.author__avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  @include breakpoint($large) {
+    padding: 0;
+    border: 0;
+  }
+}
+
+.sidebar .author__name {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+}
+
+.sidebar .author__bio,
+.sidebar .author__pronouns {
+  color: $dark-gray;
+  font-size: 14px;
+  line-height: 1.42859;
+  letter-spacing: -0.016em;
+}
+
+.author__urls {
+  color: $darker-gray;
+  border-radius: $apple-card-radius;
+  box-shadow: $apple-card-shadow-hover;
+  border: 0;
+
+  // on desktop the links sit inline in the sidebar, not in a dropdown
+  @include breakpoint($large) {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  &:before,
+  &:after {
+    display: none;
+  }
+
+  li {
+    font-size: 14px;
+    letter-spacing: -0.016em;
+  }
+
+  a {
+    font-size: 14px;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+
+  .fas,
+  .fab,
+  .fa-solid,
+  .ai {
+    color: $gray;
+  }
+}
+
+/*
+   Footer: Apple global footer
+   ========================================================================== */
+
+.page__footer {
+  color: $dark-gray;
+  background-color: $lighter-gray;
+  border-top: 1px solid $light-gray;
+
+  a {
+    color: $apple-footer-link;
+  }
+
+  .fa,
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $dark-gray;
+  }
+
+  footer > a {
+    font-size: 12px;
+  }
+}
+
+.page__footer-follow,
+.page__footer-copyright {
+  font-size: 12px;
+  line-height: 1.33337;
+  letter-spacing: -0.01em;
+}
+
+.page__footer-follow {
+  li {
+    font-size: 12px;
+    text-transform: none;
+  }
+
+  a {
+    font-weight: 400;
+  }
+}

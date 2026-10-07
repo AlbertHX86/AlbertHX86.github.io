@@ -8,37 +8,37 @@ redirect_from:
 ---
 
 <style>
-.page__content h2.hp-sec{margin:2.6em 0 1em;padding:0 0 .45em;border-bottom:2px solid #e8edf2;font-size:1.45em;display:flex;align-items:center;gap:.55em}
-.page__content h2.hp-sec i{display:inline-grid;place-items:center;width:1.9em;height:1.9em;border-radius:.55em;background:#eaf5f9;color:#3a8fae;font-size:.62em}
+.page__content h2.hp-sec{margin:2.4em 0 .9em;padding:0;border:0;font-size:1.65em;line-height:1.14286;font-weight:600;letter-spacing:.007em;color:#1d1d1f;display:flex;align-items:center;gap:.5em}
+.page__content h2.hp-sec i{display:inline-grid;place-items:center;width:1.9em;height:1.9em;border-radius:22.5%;background:#f5f5f7;color:#0071e3;font-size:.6em}
 .page__content h2.hp-sec:first-of-type{margin-top:1.2em}
 .hp-jump{display:flex;flex-wrap:wrap;gap:.5em;margin:1.4em 0 .4em;padding:0;list-style:none}
 .hp-jump li{margin:0}
-.hp-jump a{display:inline-block;padding:.3em .9em;border:1px solid #d6e3ea;border-radius:999px;font-size:.8em;text-decoration:none;color:#3a8fae;background:#f6fbfd}
-.hp-jump a:hover{background:#eaf5f9}
+.page__content .hp-jump a{display:inline-block;padding:.4em 1em;border:1px solid #0071e3;border-radius:980px;font-size:14px;letter-spacing:-.016em;text-decoration:none;color:#0071e3;background:transparent;transition:background .24s cubic-bezier(.4,0,.6,1),color .24s cubic-bezier(.4,0,.6,1)}
+.page__content .hp-jump a:hover{background:#0071e3;color:#fff;text-decoration:none}
 .page__content ul.hp-awards{list-style:none;margin-left:0;padding-left:0}
 .page__content ul.hp-awards li{margin:.35em 0}
-.page__content ul.hp-awards i{color:#d4a017;width:1.4em}
-.page__content h3.hp-item{font-size:1em;margin:1.6em 0 .4em}
+.page__content ul.hp-awards i{color:#b64400;width:1.4em}
+.page__content h3.hp-item{font-size:1.12em;line-height:1.21053;font-weight:600;letter-spacing:.012em;margin:1.6em 0 .4em}
 .page__content{position:relative}
 .hp-toc{display:none}
 @media (min-width:1100px){
 .hp-toc{display:block;position:absolute;top:0;bottom:0;left:calc(100% + 2.6em);width:190px}
 .hp-jump{display:none}
 }
-.hp-toc__inner{position:sticky;top:100px}
-.page__content .hp-toc__title{margin:0 0 .9em;font-size:.66em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9aa8b2}
-.hp-toc__track{position:relative;border-left:2px solid #e8edf2}
+.hp-toc__inner{position:sticky;top:80px}
+.page__content .hp-toc__title{margin:0 0 .9em;font-size:12px;font-weight:600;letter-spacing:-.01em;color:#86868b}
+.hp-toc__track{position:relative;border-left:2px solid #e8e8ed}
 .page__content ul.hp-toc__list{list-style:none;margin:0;padding:0}
 .hp-toc__list li{margin:0}
-.hp-toc__marker{position:absolute;left:-2px;top:0;width:2px;height:0;border-radius:2px;background:#3a8fae;transition:transform .3s ease,height .3s ease}
-.page__content .hp-toc__list a{display:flex;align-items:center;gap:.65em;padding:.38em 0 .38em .9em;font-size:.78em;line-height:1.3;color:#7a8791;text-decoration:none;border:0;transition:color .2s}
-.hp-toc__list a i{display:inline-grid;place-items:center;flex:none;width:1.85em;height:1.85em;border-radius:.5em;background:#f3f6f8;color:#9aa8b2;font-size:.8em;transition:background .2s,color .2s}
-.hp-toc__list a:hover{color:#3a8fae}
-.hp-toc__list a:hover i{color:#3a8fae}
-.hp-toc__list a.is-active{color:#2f3d47;font-weight:600}
-.hp-toc__list a.is-active i{background:#eaf5f9;color:#3a8fae}
-.page__content a.hp-toc__top{display:inline-flex;align-items:center;gap:.45em;margin:1.2em 0 0 .9em;font-size:.72em;color:#9aa8b2;text-decoration:none;border:0}
-.page__content a.hp-toc__top:hover{color:#3a8fae}
+.hp-toc__marker{position:absolute;left:-2px;top:0;width:2px;height:0;border-radius:2px;background:#0071e3;transition:transform .3s cubic-bezier(0,0,.5,1),height .3s cubic-bezier(0,0,.5,1)}
+.page__content .hp-toc__list a{display:flex;align-items:center;gap:.65em;padding:.38em 0 .38em .9em;font-size:14px;line-height:1.28577;letter-spacing:-.016em;color:#6e6e73;text-decoration:none;border:0;transition:color .24s cubic-bezier(.4,0,.6,1)}
+.hp-toc__list a i{display:inline-grid;place-items:center;flex:none;width:1.85em;height:1.85em;border-radius:22.5%;background:#f5f5f7;color:#86868b;font-size:.8em;transition:background .24s,color .24s}
+.page__content .hp-toc__list a:hover{color:#1d1d1f;text-decoration:none}
+.hp-toc__list a:hover i{color:#0071e3}
+.page__content .hp-toc__list a.is-active{color:#1d1d1f;font-weight:600}
+.hp-toc__list a.is-active i{background:#f5f5f7;color:#0071e3}
+.page__content a.hp-toc__top{display:inline-flex;align-items:center;gap:.45em;margin:1.2em 0 0 .9em;font-size:12px;letter-spacing:-.01em;color:#0066cc;text-decoration:none;border:0}
+.page__content a.hp-toc__top:hover{color:#0066cc;text-decoration:underline}
 </style>
 <div class="hp-toc">
 <nav class="hp-toc__inner" aria-label="On this page">
@@ -86,18 +86,19 @@ I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI a
 {: .hp-sec #projects}
 ### [Video Generation Bench](https://2dn6bddf.qwenwork.host/)
 <style>
-.proj-win{border:1px solid #d9dce1;border-radius:12px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.12);margin:12px 0 18px;background:#fff;transition:transform .2s,box-shadow .2s}
-.proj-win:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(0,0,0,.18)}
-.proj-bar{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#f1f3f5;border-bottom:1px solid #e3e5e8}
+.proj-win{border-radius:18px;overflow:hidden;box-shadow:2px 4px 12px rgba(0,0,0,.08);margin:12px 0 18px;background:#fff;transition:all .3s cubic-bezier(0,0,.5,1)}
+.proj-win:hover{transform:scale3d(1.01,1.01,1.01);box-shadow:2px 4px 16px rgba(0,0,0,.16)}
+.proj-bar{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#f5f5f7;border-bottom:1px solid #e8e8ed}
 .proj-bar i{width:11px;height:11px;border-radius:50%;display:inline-block}
-.proj-url{flex:1;margin-left:10px;background:#fff;border-radius:6px;padding:3px 10px;font-size:12px;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.proj-url{flex:1;margin-left:10px;background:#fff;border-radius:8px;padding:3px 10px;font-size:12px;letter-spacing:-.01em;color:#6e6e73;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .proj-view{position:relative;aspect-ratio:16/10;overflow:hidden;background:#fff}
 .proj-view img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;animation:projfade 12s infinite}
 .proj-view img:nth-child(1){animation-delay:0s}
 .proj-view img:nth-child(2){animation-delay:4s}
 .proj-view img:nth-child(3){animation-delay:8s}
 @keyframes projfade{0%{opacity:0}4%{opacity:1}33%{opacity:1}37%{opacity:0}100%{opacity:0}}
-.proj-cta{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.78);color:#fff;font-size:13px;padding:6px 12px;border-radius:999px}
+.proj-cta{position:absolute;right:12px;bottom:12px;background:#0071e3;color:#fff;font-size:14px;letter-spacing:-.016em;padding:8px 16px;border-radius:980px;transition:background .24s cubic-bezier(.4,0,.6,1)}
+.proj-win:hover .proj-cta{background:#0077ed}
 .proj-win a,.proj-win a:hover{text-decoration:none;border:0}
 </style>
 <div class="proj-win"><a href="https://2dn6bddf.qwenwork.host/" target="_blank" rel="noopener">
@@ -236,7 +237,7 @@ marker.style.transform='translateY('+li.offsetTop+'px)';
 function onScroll(){if(!ticking){ticking=true;window.requestAnimationFrame(update);}}
 window.addEventListener('scroll',onScroll,{passive:true});
 window.addEventListener('resize',function(){marker.style.height='';onScroll();});
-links.forEach(function(a,i){a.addEventListener('click',function(e){var s=secs[i];if(!s){return;}e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:s.getBoundingClientRect().top+window.pageYOffset-90,behavior:'smooth'});if(window.history&&history.replaceState){history.replaceState(null,'','#'+s.id);}});});
+links.forEach(function(a,i){a.addEventListener('click',function(e){var s=secs[i];if(!s){return;}e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:s.getBoundingClientRect().top+window.pageYOffset-72,behavior:'smooth'});if(window.history&&history.replaceState){history.replaceState(null,'','#'+s.id);}});});
 toc.querySelector('[data-top]').addEventListener('click',function(e){e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:0,behavior:'smooth'});});
 update();
 })();
