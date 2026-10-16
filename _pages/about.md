@@ -11,52 +11,58 @@ redirect_from:
 .page__content h2.hp-sec{margin:2.4em 0 .9em;padding:0;border:0;font-size:1.65em;line-height:1.14286;font-weight:600;letter-spacing:.007em;color:#1d1d1f;display:flex;align-items:center;gap:.5em}
 .page__content h2.hp-sec i{display:inline-grid;place-items:center;width:1.9em;height:1.9em;border-radius:22.5%;background:#f5f5f7;color:#0071e3;font-size:.6em}
 .page__content h2.hp-sec:first-of-type{margin-top:1.2em}
-.hp-jump{display:flex;flex-wrap:wrap;gap:.5em;margin:1.4em 0 .4em;padding:0;list-style:none}
-.hp-jump li{margin:0}
-.page__content .hp-jump a{display:inline-block;padding:.4em 1em;border:1px solid #0071e3;border-radius:980px;font-size:14px;letter-spacing:-.016em;text-decoration:none;color:#0071e3;background:transparent;transition:background .24s cubic-bezier(.4,0,.6,1),color .24s cubic-bezier(.4,0,.6,1)}
-.page__content .hp-jump a:hover{background:#0071e3;color:#fff;text-decoration:none}
 .page__content ul.hp-awards{list-style:none;margin-left:0;padding-left:0}
 .page__content ul.hp-awards li{margin:.35em 0}
 .page__content ul.hp-awards i{color:#b64400;width:1.4em}
 .page__content h3.hp-item{font-size:1.12em;line-height:1.21053;font-weight:600;letter-spacing:.012em;margin:1.6em 0 .4em}
-.page__content{position:relative}
-.hp-toc{display:none}
-@media (min-width:1100px){
-.hp-toc{display:block;position:absolute;top:0;bottom:0;left:calc(100% + 2.6em);width:190px}
-.hp-jump{display:none}
-}
-.hp-toc__inner{position:sticky;top:80px}
-.page__content .hp-toc__title{margin:0 0 .9em;font-size:12px;font-weight:600;letter-spacing:-.01em;color:#86868b}
-.hp-toc__track{position:relative;border-left:2px solid #e8e8ed}
-.page__content ul.hp-toc__list{list-style:none;margin:0;padding:0}
-.hp-toc__list li{margin:0}
-.hp-toc__marker{position:absolute;left:-2px;top:0;width:2px;height:0;border-radius:2px;background:#0071e3;transition:transform .3s cubic-bezier(0,0,.5,1),height .3s cubic-bezier(0,0,.5,1)}
-.page__content .hp-toc__list a{display:flex;align-items:center;gap:.65em;padding:.38em 0 .38em .9em;font-size:14px;line-height:1.28577;letter-spacing:-.016em;color:#6e6e73;text-decoration:none;border:0;transition:color .24s cubic-bezier(.4,0,.6,1)}
-.hp-toc__list a i{display:inline-grid;place-items:center;flex:none;width:1.85em;height:1.85em;border-radius:22.5%;background:#f5f5f7;color:#86868b;font-size:.8em;transition:background .24s,color .24s}
+.hp-toc{position:fixed;z-index:15;top:calc(48px + 2em);right:max(1em,calc((100vw - 1280px)/2 + 1em));width:208px;transition:opacity .3s cubic-bezier(0,0,.5,1),visibility .3s}
+.hp-toc.is-hidden{opacity:0;visibility:hidden}
+.hp-toc__card{padding:16px 8px 12px;border-radius:18px;background:#f5f5f7}
+.page__content .hp-toc__title{margin:0 10px 8px;font-size:12px;font-weight:600;line-height:1.33337;letter-spacing:-.01em;color:#86868b}
+.hp-toc__track{position:relative}
+.hp-toc__thumb{position:absolute;top:0;left:0;right:0;height:0;border-radius:10px;background:#fff;box-shadow:2px 4px 12px rgba(0,0,0,.08);transition:transform .3s cubic-bezier(0,0,.5,1),height .3s cubic-bezier(0,0,.5,1)}
+.page__content ul.hp-toc__list{position:relative;list-style:none;margin:0;padding:0}
+.page__content .hp-toc__list li{margin:0}
+.page__content .hp-toc__list a{display:flex;align-items:baseline;gap:8px;padding:8px 10px;font-size:14px;line-height:1.28577;letter-spacing:-.016em;color:#6e6e73;text-decoration:none;transition:color .24s cubic-bezier(.4,0,.6,1)}
+.hp-toc__num{flex:none;width:16px;font-size:12px;letter-spacing:-.01em;font-variant-numeric:tabular-nums;color:#86868b;transition:color .24s cubic-bezier(.4,0,.6,1)}
 .page__content .hp-toc__list a:hover{color:#1d1d1f;text-decoration:none}
-.hp-toc__list a:hover i{color:#0071e3}
 .page__content .hp-toc__list a.is-active{color:#1d1d1f;font-weight:600}
-.hp-toc__list a.is-active i{background:#f5f5f7;color:#0071e3}
-.page__content a.hp-toc__top{display:inline-flex;align-items:center;gap:.45em;margin:1.2em 0 0 .9em;font-size:12px;letter-spacing:-.01em;color:#0066cc;text-decoration:none;border:0}
-.page__content a.hp-toc__top:hover{color:#0066cc;text-decoration:underline}
+.hp-toc__list a.is-active .hp-toc__num{color:#0071e3;font-weight:600}
+.hp-toc__foot{margin:8px 10px 0;padding-top:12px;border-top:1px solid #d2d2d7}
+.page__content a.hp-toc__top{font-size:12px;line-height:1.33337;letter-spacing:-.01em;color:#0066cc;text-decoration:none}
+.page__content a.hp-toc__top:hover{text-decoration:underline}
+.hp-toc__fab{display:none}
+@media (min-width:1280px){#main .page{padding-right:248px}}
+@media (max-width:1079px){
+.hp-toc{top:auto;bottom:76px;right:16px;width:min(260px,calc(100vw - 32px));opacity:0;visibility:hidden;transform:translateY(8px) scale(.98);transform-origin:100% 100%;transition:opacity .24s cubic-bezier(0,0,.5,1),transform .3s cubic-bezier(0,0,.5,1),visibility .24s}
+.hp-toc.is-open{opacity:1;visibility:visible;transform:none}
+.hp-toc__card{background:rgba(250,250,252,.92);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:2px 4px 16px rgba(0,0,0,.16)}
+.hp-toc__fab{display:inline-flex;align-items:center;gap:8px;position:fixed;z-index:15;right:16px;bottom:20px;max-width:calc(100vw - 32px);margin:0;padding:10px 16px;border:0;border-radius:980px;background:rgba(250,250,252,.92);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:2px 4px 16px rgba(0,0,0,.16);color:#1d1d1f;font-family:inherit;font-size:14px;line-height:1.28577;letter-spacing:-.016em;cursor:pointer;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .24s cubic-bezier(0,0,.5,1),transform .3s cubic-bezier(0,0,.5,1),visibility .24s}
+.hp-toc__fab.is-shown{opacity:1;visibility:visible;transform:none}
+.hp-toc__fab .fa-list-ul{color:#0071e3}
+.hp-toc__fab-label{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.hp-toc__fab .fa-chevron-up{font-size:10px;color:#86868b;transition:transform .3s cubic-bezier(0,0,.5,1)}
+.hp-toc__fab[aria-expanded="true"] .fa-chevron-up{transform:rotate(180deg)}
+}
 </style>
-<div class="hp-toc">
-<nav class="hp-toc__inner" aria-label="On this page">
+<button class="hp-toc__fab" type="button" aria-expanded="false" aria-controls="hp-toc"><i class="fas fa-list-ul" aria-hidden="true"></i><span class="hp-toc__fab-label">About me</span><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+<nav class="hp-toc" id="hp-toc" aria-label="On this page">
+<div class="hp-toc__card">
 <p class="hp-toc__title">On this page</p>
 <div class="hp-toc__track">
-<span class="hp-toc__marker"></span>
+<span class="hp-toc__thumb" aria-hidden="true"></span>
 <ul class="hp-toc__list">
-<li><a href="#about-me" data-sec="about-me"><i class="fas fa-user"></i><span>About me</span></a></li>
-<li><a href="#work-experience" data-sec="work-experience"><i class="fas fa-briefcase"></i><span>Work experience</span></a></li>
-<li><a href="#projects" data-sec="projects"><i class="fas fa-laptop-code"></i><span>Projects</span></a></li>
-<li><a href="#research-experience" data-sec="research-experience"><i class="fas fa-flask"></i><span>Research experience</span></a></li>
-<li><a href="#awards" data-sec="awards"><i class="fas fa-award"></i><span>Awards</span></a></li>
-{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors" data-sec="visitors"><i class="fas fa-globe"></i><span>Visitors</span></a></li>{% endif %}
+<li><a href="#about-me" data-sec="about-me"><span class="hp-toc__num">01</span><span class="hp-toc__label">About me</span></a></li>
+<li><a href="#work-experience" data-sec="work-experience"><span class="hp-toc__num">02</span><span class="hp-toc__label">Work experience</span></a></li>
+<li><a href="#projects" data-sec="projects"><span class="hp-toc__num">03</span><span class="hp-toc__label">Projects</span></a></li>
+<li><a href="#research-experience" data-sec="research-experience"><span class="hp-toc__num">04</span><span class="hp-toc__label">Research experience</span></a></li>
+<li><a href="#awards" data-sec="awards"><span class="hp-toc__num">05</span><span class="hp-toc__label">Awards</span></a></li>
+{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors" data-sec="visitors"><span class="hp-toc__num">06</span><span class="hp-toc__label">Visitors</span></a></li>{% endif %}
 </ul>
 </div>
-<a class="hp-toc__top" href="#" data-top><i class="fas fa-arrow-up"></i>Back to top</a>
-</nav>
+<div class="hp-toc__foot"><a class="hp-toc__top" href="#" data-top>Back to top &#8593;</a></div>
 </div>
+</nav>
 ## <i class="fas fa-user"></i> About me
 {: .hp-sec #about-me}
 I am a Master student at Stanford University. I graduated from the National University of Singapore (NUS) with Highest Distinction (First Class Honours).
@@ -64,14 +70,6 @@ I am a Master student at Stanford University. I graduated from the National Univ
 My research focuses on **agents and multi-agent systems (MAS) for energy systems**. I also work on LLMs, vision-language models for photovoltaic inspection, renewable energy forecasting, energy storage and grid resilience.
 
 I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI and WAMs. Before that I was an AI Product Manager intern at **ByteDance**, working on AIME, ByteDance's largest internal multi-agent system, where the R&D pipeline features I built pushed internal developer MAU past 100K. Earlier, I was an ML / Product Manager intern at **CNeutral.io**, an NUS and A\*STAR incubated AI-for-finance startup, where I built an LLM-based ESG decision platform from 0 to 1. I was also a product manager intern at **LeetCode** (recommendation and feed ranking, 5x PV-CTR), and worked at **Roland Berger**, Ernst & Young Parthenon and Oliver Wyman on TMT, EV and energy projects.
-
-<ul class="hp-jump">
-<li><a href="#work-experience">Work experience</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#research-experience">Research experience</a></li>
-<li><a href="#awards">Awards</a></li>
-{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors">Visitors</a></li>{% endif %}
-</ul>
 
 ## <i class="fas fa-briefcase"></i> Work experience
 {: .hp-sec #work-experience}
@@ -216,29 +214,55 @@ An interactive comparison of two ways to turn a single reference image into a 3D
 (function(){
 var toc=document.querySelector('.hp-toc');
 if(!toc){return;}
+var fab=document.querySelector('.hp-toc__fab');
+var fabLabel=fab&&fab.querySelector('.hp-toc__fab-label');
+var footer=document.querySelector('.page__footer');
+var thumb=toc.querySelector('.hp-toc__thumb');
 var links=[].slice.call(toc.querySelectorAll('a[data-sec]'));
 var secs=links.map(function(a){return document.getElementById(a.getAttribute('data-sec'));});
-var marker=toc.querySelector('.hp-toc__marker');
+var mobile=window.matchMedia('(max-width:1079px)');
 var current=-1;
 var ticking=false;
+function place(){
+if(current<0){return;}
+var li=links[current].parentNode;
+thumb.style.height=li.offsetHeight+'px';
+thumb.style.transform='translateY('+li.offsetTop+'px)';
+}
 function update(){
 ticking=false;
 var line=window.innerHeight*0.3;
 var idx=0;
 for(var i=0;i<secs.length;i++){if(secs[i]&&secs[i].getBoundingClientRect().top<=line){idx=i;}}
 if(window.innerHeight+window.pageYOffset>=document.documentElement.scrollHeight-4){idx=secs.length-1;}
-if(idx===current&&marker.style.height){return;}
+if(idx!==current){
 current=idx;
-links.forEach(function(a,i){a.classList.toggle('is-active',i===idx);});
-var li=links[idx].parentNode;
-marker.style.height=li.offsetHeight+'px';
-marker.style.transform='translateY('+li.offsetTop+'px)';
+links.forEach(function(a,i){a.classList.toggle('is-active',i===idx);if(i===idx){a.setAttribute('aria-current','location');}else{a.removeAttribute('aria-current');}});
+if(fabLabel){fabLabel.textContent=links[idx].querySelector('.hp-toc__label').textContent;}
+place();
+}
+var open=toc.classList.contains('is-open');
+if(fab){fab.classList.toggle('is-shown',open||window.pageYOffset>200);}
+toc.classList.toggle('is-hidden',!mobile.matches&&!!footer&&footer.getBoundingClientRect().top<toc.getBoundingClientRect().bottom+24);
 }
 function onScroll(){if(!ticking){ticking=true;window.requestAnimationFrame(update);}}
+function setOpen(o){
+toc.classList.toggle('is-open',o);
+if(fab){fab.setAttribute('aria-expanded',o?'true':'false');}
+place();
+onScroll();
+}
 window.addEventListener('scroll',onScroll,{passive:true});
-window.addEventListener('resize',function(){marker.style.height='';onScroll();});
-links.forEach(function(a,i){a.addEventListener('click',function(e){var s=secs[i];if(!s){return;}e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:s.getBoundingClientRect().top+window.pageYOffset-72,behavior:'smooth'});if(window.history&&history.replaceState){history.replaceState(null,'','#'+s.id);}});});
-toc.querySelector('[data-top]').addEventListener('click',function(e){e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:0,behavior:'smooth'});});
+window.addEventListener('resize',function(){place();onScroll();});
+var onMode=function(){setOpen(false);};
+if(mobile.addEventListener){mobile.addEventListener('change',onMode);}else if(mobile.addListener){mobile.addListener(onMode);}
+links.forEach(function(a,i){a.addEventListener('click',function(e){var s=secs[i];if(!s){return;}e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:s.getBoundingClientRect().top+window.pageYOffset-72,behavior:'smooth'});if(window.history&&history.replaceState){history.replaceState(null,'','#'+s.id);}if(mobile.matches){setOpen(false);}});});
+toc.querySelector('[data-top]').addEventListener('click',function(e){e.preventDefault();e.stopImmediatePropagation();window.scrollTo({top:0,behavior:'smooth'});if(mobile.matches){setOpen(false);}});
+if(fab){
+fab.addEventListener('click',function(e){e.stopPropagation();setOpen(!toc.classList.contains('is-open'));});
+document.addEventListener('click',function(e){if(toc.classList.contains('is-open')&&!toc.contains(e.target)&&!fab.contains(e.target)){setOpen(false);}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&toc.classList.contains('is-open')){setOpen(false);fab.focus();}});
+}
 update();
 })();
 </script>
