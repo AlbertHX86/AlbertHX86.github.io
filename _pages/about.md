@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Welcome"
+description: "Xiao (Albert) Huang, Stanford master's student and NUS graduate. I build AI agents for energy systems: solar PV inspection, forecasting, storage and grid resilience."
 author_profile: true
 redirect_from: 
   - /about/
@@ -45,8 +46,8 @@ redirect_from:
 .hp-toc__fab[aria-expanded="true"] .fa-chevron-up{transform:rotate(180deg)}
 }
 </style>
-<button class="hp-toc__fab" type="button" aria-expanded="false" aria-controls="hp-toc"><i class="fas fa-list-ul" aria-hidden="true"></i><span class="hp-toc__fab-label">About me</span><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
-<nav class="hp-toc" id="hp-toc" aria-label="On this page">
+<button class="hp-toc__fab" data-nosnippet type="button" aria-expanded="false" aria-controls="hp-toc"><i class="fas fa-list-ul" aria-hidden="true"></i><span class="hp-toc__fab-label">About me</span><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+<nav class="hp-toc" data-nosnippet id="hp-toc" aria-label="On this page">
 <div class="hp-toc__card">
 <p class="hp-toc__title">On this page</p>
 <div class="hp-toc__track">
