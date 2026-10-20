@@ -7,7 +7,7 @@ Source of my personal website, https://alberthx86.github.io. GitHub Pages builds
 | What | File |
 |---|---|
 | Home page (about, work, projects, research, awards) and its "On this page" card | `_pages/about.md` |
-| Site settings, sidebar, visitor globe (`visitor_map`) | `_config.yml` |
+| Site settings, sidebar | `_config.yml` |
 | Top menu | `_data/navigation.yml` |
 | Site-wide styling (Apple-style colours, type, cards) | `_sass/_apple.scss` |
 | Publications, CV and other pages | `_publications/`, `_pages/` |

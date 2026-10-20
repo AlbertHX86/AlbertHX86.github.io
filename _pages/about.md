@@ -57,7 +57,6 @@ redirect_from:
 <li><a href="#projects" data-sec="projects"><span class="hp-toc__num">03</span><span class="hp-toc__label">Projects</span></a></li>
 <li><a href="#research-experience" data-sec="research-experience"><span class="hp-toc__num">04</span><span class="hp-toc__label">Research experience</span></a></li>
 <li><a href="#awards" data-sec="awards"><span class="hp-toc__num">05</span><span class="hp-toc__label">Awards</span></a></li>
-{% if site.visitor_map.id and site.visitor_map.id != "" %}<li><a href="#visitors" data-sec="visitors"><span class="hp-toc__num">06</span><span class="hp-toc__label">Visitors</span></a></li>{% endif %}
 </ul>
 </div>
 <div class="hp-toc__foot"><a class="hp-toc__top" href="#" data-top>Back to top &#8593;</a></div>
@@ -204,12 +203,6 @@ An interactive comparison of two ways to turn a single reference image into a 3D
 * <i class="fas fa-trophy"></i> Singapore MOE Full Scholarship
 * <i class="fas fa-trophy"></i> IEEE I&CPS Best Oral
 {: .hp-awards}
-{% if site.visitor_map.id and site.visitor_map.id != "" %}
-
-## <i class="fas fa-globe"></i> Visitors
-{: .hp-sec #visitors}
-{% include visitor-map.html %}
-{% endif %}
 <script>
 (function(){
 var toc=document.querySelector('.hp-toc');
