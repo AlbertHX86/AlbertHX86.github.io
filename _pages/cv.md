@@ -23,7 +23,7 @@ Education
 
 Interests
 ======
-**Agents and Multi-Agent Systems (MAS) for Energy Systems, Large Language Models, Power Systems, Renewable Energy Forecasting**
+**Multi-Agent Systems (MAS), Time Series Algorithms**
 
 Work experience
 ======
