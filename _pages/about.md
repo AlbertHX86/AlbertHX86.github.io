@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Welcome"
-description: "Xiao (Albert) Huang, Stanford master's student and NUS graduate. I build AI agents for energy systems: solar PV inspection, forecasting, storage and grid resilience."
+description: "Xiao (Albert) Huang, Stanford master's student and NUS graduate. My research focuses on multi-agent systems (MAS) and time series algorithms."
 author_profile: true
 redirect_from: 
   - /about/
