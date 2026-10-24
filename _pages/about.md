@@ -110,6 +110,18 @@ I am currently an Investment Analyst intern at **BAI Capital**, focusing on AI a
 
 An evaluation platform I designed and built for text-to-video (T2V) generation models. It pairs an 8-dimension scoring rubric with blind head-to-head Elo voting, so it shows both *where* a model is weak and *which* model people actually prefer.
 
+### [LLM Coding Eval](https://bai-ai-lab.github.io/coding-eval/)
+<div class="proj-win"><a href="https://bai-ai-lab.github.io/coding-eval/" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">bai-ai-lab.github.io/coding-eval · LLM Coding Eval</span></div>
+<div class="proj-view">
+<img src="/images/projects/ce-models.jpg" alt="LLM Coding Eval: pass rate, latency and cost of the three models">
+<img src="/images/projects/ce-results.jpg" alt="LLM Coding Eval: results by difficulty and run settings">
+<img src="/images/projects/ce-code.jpg" alt="LLM Coding Eval: each model's code for a problem">
+<span class="proj-cta">Open live demo ↗</span>
+</div></a></div>
+
+A public results site for the coding evaluation I ran at BAI AI Lab, comparing Kimi K3.1 Pro, DeepSeek-V4.1-Flash and DeepSeek-V4-Pro on the newest LiveCodeBench problems. Beyond pass@1 it reports latency, tokens and cost, measures the runtime, memory and static metrics of every passing answer, shows each model's code side by side, and documents the judging rules and the commands for evaluating your own model.
+
 ### [Panel Intelligence](https://hmm5s69m.qwenwork.host/)
 <div class="proj-win"><a href="https://hmm5s69m.qwenwork.host/" target="_blank" rel="noopener">
 <div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">hmm5s69m.qwenwork.host · Panel Intelligence</span></div>
