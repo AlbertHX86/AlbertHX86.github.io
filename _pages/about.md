@@ -132,6 +132,18 @@ A public results site for the coding evaluation I ran at BAI AI Lab, comparing K
 
 A visual analysis workbench for equipment control panels. Upload a photo or take one with your camera, and a multimodal AI model reads the image directly, explaining each switch, indicator light and display, and flagging anything it can't read clearly. You can then ask follow-up questions about the panel and export the explanation as TXT or DOCX.
 
+### [HealthGlance](https://github.com/AlbertHX86/health-glance)
+<div class="proj-win"><a href="https://github.com/AlbertHX86/health-glance" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">github.com/AlbertHX86/health-glance · HealthGlance</span></div>
+<div class="proj-view">
+<img src="/images/projects/hg-desktop.jpg" alt="HealthGlance: the desktop widget and the opened Dynamic Island">
+<img src="/images/projects/hg-island.jpg" alt="HealthGlance: the Dynamic Island with today's checklist, in Chinese">
+<img src="/images/projects/hg-battles.jpg" alt="HealthGlance: the Puff Battles page shared with friends">
+<span class="proj-cta">View on GitHub ↗</span>
+</div></a></div>
+
+A macOS menu-bar app and desktop widget I built that turns iPhone Health data into a daily AI summary. An iPhone shortcut exports the numbers to iCloud Drive; the Mac app has MiniMax write a short summary that compares each number with your own 7-day average, and turns its advice into a checklist you tick off. It shows as a WidgetKit widget, a pinned card or a Dynamic Island that appears when you point at the notch, answers questions about your data, and lets friends who share an iCloud folder compete in a daily pet-battle game. Written in Swift and SwiftUI and built with the Command Line Tools alone.
+
 ## <i class="fas fa-flask"></i> Research experience
 {: .hp-sec #research-experience}
 
