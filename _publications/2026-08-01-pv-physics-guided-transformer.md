@@ -1,22 +1,17 @@
 ---
-title: "Day-ahead PV Forecasting with a Physics-guided Transformer Model Design"
+title: "Day-Ahead PV Forecasting with a Physics-Guided Transformer Model Design"
 collection: publications
 category: conferences
 permalink: /publication/2026-08-01-pv-physics-guided-transformer
 date: 2026-08-01
-venue: 'IEEE APPEEC 2026'
-status: 'Accepted'
-excerpt: 'First author. [Read the manuscript](/publication/2026-08-01-pv-physics-guided-transformer)'
-paperurl: '/files/Huang_APPEEC2026_manuscript.pdf'
-citation: 'X. Huang, R. Shao, Y. Xiang, S. Gao and D. Srinivasan, "Day-ahead PV Forecasting with a Physics-guided Transformer Model Design," <i>IEEE APPEEC 2026</i>, accepted.'
+venue: '2026 IEEE PES 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)'
+status: 'Published'
+excerpt: 'First author. [View on IEEE Xplore](https://doi.org/10.1109/APPEEC67771.2026.11750024)'
+citation: 'X. Huang, B. Li, Y. Xiang, S. Gao, Y. Shao and D. Srinivasan, "Day-Ahead PV Forecasting with a Physics-Guided Transformer Model Design," <i>2026 IEEE PES 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)</i>, 2026, pp. 95-100, doi: <a href="https://doi.org/10.1109/APPEEC67771.2026.11750024">10.1109/APPEEC67771.2026.11750024</a>.'
 ---
 
-**Authors:** Xiao Huang, Rossi Shao, Yue Xiang, Shang Gao, Dipti Srinivasan
+**[View on IEEE Xplore (DOI: 10.1109/APPEEC67771.2026.11750024)](https://doi.org/10.1109/APPEEC67771.2026.11750024)**
+
+**Authors:** Xiao Huang, Borui Li, Yue Xiang, Shang Gao, Yizhong Shao, Dipti Srinivasan
 
 **Abstract.** Day-ahead photovoltaic (PV) forecasting is essential for reliable grid scheduling and renewable energy integration, yet it remains difficult because PV generation is highly intermittent, nonlinear, and sensitive to changing weather conditions. Existing methods often rely on future meteorological inputs or lack physical feasibility. To address this, this paper proposes a physics-constrained Transformer in a history-only setting, integrating weather-regime-aware clustering, cross-channel dependency modeling, and feasibility-oriented constraints. Comparative experiments demonstrate effective and robust next-day PV power forecasting performance.
-
-*Author's manuscript. The final version will be published by IEEE. © 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.*
-
-<p><a href="/files/Huang_APPEEC2026_manuscript.pdf">Download PDF</a></p>
-
-<iframe src="/files/Huang_APPEEC2026_manuscript.pdf" width="100%" height="900" style="border:1px solid #ddd;" title="APPEEC 2026 manuscript"></iframe>
