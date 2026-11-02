@@ -151,9 +151,9 @@ A macOS menu-bar app and desktop widget I built that turns iPhone Health data in
 {: .hp-item}
 - Framework for defect localization and grouping; under review at **Solar Energy** (Elsevier), first author
 
-### 2026: *Day-ahead PV Forecasting with a Physics-guided Transformer*
+### 2026: *Day-Ahead PV Forecasting with a Physics-Guided Transformer*
 {: .hp-item}
-- Accepted by **IEEE APPEEC 2026**, first author: [read the manuscript](/publication/2026-08-01-pv-physics-guided-transformer)
+- Published at **IEEE PES APPEEC 2026**, first author: [View on IEEE Xplore](https://doi.org/10.1109/APPEEC67771.2026.11750024)
 
 ### 2026: *Visual Token Pruning in Vision-Language Navigation*
 {: .hp-item}
