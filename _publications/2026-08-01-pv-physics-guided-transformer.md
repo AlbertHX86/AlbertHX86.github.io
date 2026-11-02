@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-08-01-pv-physics-guided-transformer
 date: 2026-08-01
 venue: '2026 IEEE PES 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)'
-status: 'Published'
+status: 'Published (Oral)'
 excerpt: 'First author. [View on IEEE Xplore](https://doi.org/10.1109/APPEEC67771.2026.11750024)'
 citation: 'X. Huang, B. Li, Y. Xiang, S. Gao, Y. Shao and D. Srinivasan, "Day-Ahead PV Forecasting with a Physics-Guided Transformer Model Design," <i>2026 IEEE PES 18th Asia-Pacific Power and Energy Engineering Conference (APPEEC)</i>, 2026, pp. 95-100, doi: <a href="https://doi.org/10.1109/APPEEC67771.2026.11750024">10.1109/APPEEC67771.2026.11750024</a>.'
 ---
