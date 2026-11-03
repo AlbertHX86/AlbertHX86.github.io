@@ -9,6 +9,7 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
+    hot: true   # highlighted in the header (gradient text and a live dot, see _sass/_apple.scss)
   - title: "CV"
     url: /cv/
     
