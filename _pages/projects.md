@@ -22,15 +22,15 @@ author_profile: true
 .proj-win a,.proj-win a:hover{text-decoration:none;border:0}
 .pj-hero{margin:.2em 0 2.4em}
 .pj-kicker{margin:0;font-size:14px;font-weight:600;letter-spacing:-.01em;color:#0071e3}
-.page__content .pj-title{margin:.15em 0 .35em;padding:0;border:0;font-size:clamp(30px,4.6vw,46px);line-height:1.08;font-weight:700;letter-spacing:-.015em;background:linear-gradient(90deg,#0071e3 0%,#7a5af8 35%,#e5398c 60%,#0071e3 100%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:pjshine 9s linear infinite}
+#main .pj-title{margin:.15em 0 .35em;padding:0;border:0;font-size:clamp(30px,4.6vw,46px);line-height:1.08;font-weight:700;letter-spacing:-.015em;background:linear-gradient(90deg,#0071e3 0%,#7a5af8 35%,#e5398c 60%,#0071e3 100%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:pjshine 9s linear infinite}
 .pj-sub{margin:0;max-width:38em;font-size:19px;line-height:1.42;letter-spacing:.012em;color:#6e6e73}
 .pj-stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.2em}
 .pj-stat{padding:6px 14px;border-radius:980px;background:#f5f5f7;font-size:14px;letter-spacing:-.016em;color:#1d1d1f}
 .pj-stat b{color:#0071e3;font-weight:600}
 .pj-item{margin:0 0 3em}
-.page__content .pj-item h3{margin:0 0 .45em;font-size:1.5em;line-height:1.16;font-weight:600;letter-spacing:.009em}
-.page__content .pj-item h3 a{color:#1d1d1f;text-decoration:none}
-.page__content .pj-item h3 a:hover{color:#0066cc}
+#main .pj-item h3{margin:0 0 .45em;font-size:1.5em;line-height:1.16;font-weight:600;letter-spacing:.009em}
+#main .pj-item h3 a{color:#1d1d1f;text-decoration:none}
+#main .pj-item h3 a:hover{color:#0066cc}
 .pj-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 .2em}
 .pj-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:980px;font-size:12px;font-weight:600;letter-spacing:-.01em}
 .pj-badge--live{background:#e8f8ee;color:#1d7d3f}
@@ -44,17 +44,17 @@ author_profile: true
 .pj-js .pj-reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(0,0,.5,1),transform .9s cubic-bezier(0,0,.5,1)}
 .pj-js .pj-reveal.is-in{opacity:1;transform:none}
 .pj-band{margin:1em 0 1.5em;padding:40px 32px;border-radius:18px;background:linear-gradient(135deg,#f5f5f7 0%,#eef3ff 55%,#f7eefb 100%);text-align:center}
-.page__content .pj-band h2{margin:0 0 .3em;padding:0;border:0;font-size:28px;line-height:1.14;font-weight:600;letter-spacing:.007em;color:#1d1d1f}
+#main .pj-band h2{margin:0 0 .3em;padding:0;border:0;font-size:28px;line-height:1.14;font-weight:600;letter-spacing:.007em;color:#1d1d1f}
 .pj-band p{margin:0 auto 1.3em;max-width:32em;color:#6e6e73}
 .pj-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
-.page__content a.pj-btn{display:inline-block;padding:11px 22px;border-radius:980px;background:#0071e3;color:#fff;font-size:15px;letter-spacing:-.016em;text-decoration:none;transition:background .24s cubic-bezier(.4,0,.6,1),transform .24s}
-.page__content a.pj-btn:hover{background:#0077ed;transform:translateY(-1px)}
-.page__content a.pj-btn--ghost{background:transparent;color:#0066cc;box-shadow:inset 0 0 0 1px #0071e3}
-.page__content a.pj-btn--ghost:hover{background:#0071e3;color:#fff}
+#main a.pj-btn{display:inline-block;padding:11px 22px;border-radius:980px;background:#0071e3;color:#fff;font-size:15px;letter-spacing:-.016em;text-decoration:none;transition:background .24s cubic-bezier(.4,0,.6,1),transform .24s}
+#main a.pj-btn:hover{background:#0077ed;transform:translateY(-1px)}
+#main a.pj-btn--ghost{background:transparent;color:#0066cc;box-shadow:inset 0 0 0 1px #0071e3}
+#main a.pj-btn--ghost:hover{background:#0071e3;color:#fff}
 @keyframes pjshine{to{background-position:200% center}}
 @keyframes pjping{75%,100%{transform:scale(2.4);opacity:0}}
 @keyframes pjpulse{0%{box-shadow:0 0 0 0 rgba(0,113,227,.45)}70%{box-shadow:0 0 0 12px rgba(0,113,227,0)}100%{box-shadow:0 0 0 0 rgba(0,113,227,0)}}
-@media (prefers-reduced-motion:reduce){.page__content .pj-title,.proj-cta,.pj-badge--live i:after{animation:none}.proj-view:after{display:none}.pj-js .pj-reveal{opacity:1;transform:none;transition:none}}
+@media (prefers-reduced-motion:reduce){#main .pj-title,.proj-cta,.pj-badge--live i:after{animation:none}.proj-view:after{display:none}.pj-js .pj-reveal{opacity:1;transform:none;transition:none}}
 </style>
 <div class="pj-hero">
 <p class="pj-kicker">Selected work</p>
