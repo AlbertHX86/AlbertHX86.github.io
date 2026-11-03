@@ -326,3 +326,49 @@ code {
     font-weight: 400;
   }
 }
+
+
+/* Header: the "hot" menu item (navigation.yml `hot: true`), gradient text that slowly shines plus a live dot */
+.masthead__menu-item--hot a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-hot__text {
+  font-weight: 600;
+  background: linear-gradient(90deg, #0071e3 0%, #7a5af8 35%, #e5398c 60%, #0071e3 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  -webkit-animation: navhot-shine 6s linear infinite;
+          animation: navhot-shine 6s linear infinite;
+}
+
+.nav-hot__dot {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #28c840;
+
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #28c840;
+    -webkit-animation: navhot-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: navhot-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+}
+
+@-webkit-keyframes navhot-shine { to { background-position: 200% center; } }
+@keyframes navhot-shine { to { background-position: 200% center; } }
+@-webkit-keyframes navhot-ping { 75%, 100% { -webkit-transform: scale(2.4); opacity: 0; } }
+@keyframes navhot-ping { 75%, 100% { transform: scale(2.4); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-hot__text, .nav-hot__dot:after { -webkit-animation: none; animation: none; }
+}
