@@ -37,6 +37,9 @@ author_profile: true
 .pj-badge--live i{position:relative;width:7px;height:7px;border-radius:50%;background:#28c840}
 .pj-badge--live i:after{content:"";position:absolute;inset:0;border-radius:50%;background:#28c840;animation:pjping 1.8s cubic-bezier(0,0,.2,1) infinite}
 .pj-badge--oss{background:#f0eefe;color:#5b3fd6}
+#main a.pj-doc{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:980px;background:#fff;box-shadow:inset 0 0 0 1px #0071e3;font-size:12px;font-weight:600;letter-spacing:-.01em;color:#0066cc;text-decoration:none;transition:background .24s cubic-bezier(.4,0,.6,1),color .24s}
+#main a.pj-doc:hover{background:#0071e3;color:#fff}
+#main a.pj-doc i{font-size:11px}
 .pj-tag{padding:4px 11px;border-radius:980px;background:#f5f5f7;font-size:12px;letter-spacing:-.01em;color:#6e6e73}
 .proj-view:after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.55) 50%,transparent 65%);transform:translateX(-130%);transition:transform 1s cubic-bezier(.4,0,.2,1)}
 .proj-win:hover .proj-view:after{transform:translateX(130%)}
@@ -80,7 +83,7 @@ An evaluation platform I designed and built for text-to-video (T2V) generation m
 
 <div class="pj-item pj-reveal" markdown="1">
 ### [LLM Coding Eval](https://bai-ai-lab.github.io/coding-eval/)
-<div class="pj-head"><span class="pj-badge pj-badge--live"><i></i>Live demo</span><span class="pj-tag">LiveCodeBench</span><span class="pj-tag">Runtime &amp; cost</span><span class="pj-tag">Side-by-side code</span></div>
+<div class="pj-head"><span class="pj-badge pj-badge--live"><i></i>Live demo</span><span class="pj-tag">LiveCodeBench</span><span class="pj-tag">Runtime &amp; cost</span><span class="pj-tag">Side-by-side code</span><a class="pj-doc" href="https://github.com/BAI-AI-Lab/codingBench/blob/main/reports/2026-11-03_ladder_technical_report/main.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i>Technical report (PDF) ↗</a></div>
 <div class="proj-win"><a href="https://bai-ai-lab.github.io/coding-eval/" target="_blank" rel="noopener">
 <div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">bai-ai-lab.github.io/coding-eval · LLM Coding Eval</span></div>
 <div class="proj-view">
@@ -90,7 +93,7 @@ An evaluation platform I designed and built for text-to-video (T2V) generation m
 <span class="proj-cta">Open live demo ↗</span>
 </div></a></div>
 
-A public results site for the coding evaluation I ran at BAI AI Lab, comparing Kimi K3.1 Pro, DeepSeek-V4.1-Flash and DeepSeek-V4-Pro on the newest LiveCodeBench problems. Beyond pass@1 it reports latency, tokens and cost, measures the runtime, memory and static metrics of every passing answer, shows each model's code side by side, and documents the judging rules and the commands for evaluating your own model.
+A public results site for the coding evaluation I ran at BAI AI Lab, comparing Kimi K3.1 Pro, DeepSeek-V4.1-Flash and DeepSeek-V4-Pro on the newest LiveCodeBench problems. Beyond pass@1 it reports latency, tokens and cost, measures the runtime, memory and static metrics of every passing answer, shows each model's code side by side, and documents the judging rules and the commands for evaluating your own model. The [technical report](https://github.com/BAI-AI-Lab/codingBench/blob/main/reports/2026-11-03_ladder_technical_report/main.pdf) extends it to a five-tier ladder from USACO to FrontierCS and compares Kimi K3.1 Pro at two reasoning efforts with DeepSeek Flash V4.1-1017 and MiniMax M3.1 Flash.
 </div>
 
 <div class="pj-item pj-reveal" markdown="1">
