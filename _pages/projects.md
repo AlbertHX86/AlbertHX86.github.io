@@ -63,7 +63,7 @@ author_profile: true
 <p class="pj-kicker">Selected work</p>
 <h2 class="pj-title">Built to be tried.</h2>
 <p class="pj-sub">AI evaluation platforms, a multimodal vision tool and a macOS app. Every window below opens the real thing, so click one and try it.</p>
-<div class="pj-stats"><span class="pj-stat"><b>3</b> live demos</span><span class="pj-stat"><b>1</b> open-source app</span><span class="pj-stat"><b>2</b> AI evaluation platforms</span></div>
+<div class="pj-stats"><span class="pj-stat"><b>4</b> live demos</span><span class="pj-stat"><b>3</b> AI evaluation platforms</span><span class="pj-stat"><b>2</b> technical reports</span><span class="pj-stat"><b>1</b> open-source app</span></div>
 </div>
 
 <div class="pj-item pj-reveal" markdown="1">
@@ -94,6 +94,21 @@ An evaluation platform I designed and built for text-to-video (T2V) generation m
 </div></a></div>
 
 A public results site for the coding evaluation I ran at BAI AI Lab, comparing Kimi K3.1 Pro, DeepSeek-V4.1-Flash and DeepSeek-V4-Pro on the newest LiveCodeBench problems. Beyond pass@1 it reports latency, tokens and cost, measures the runtime, memory and static metrics of every passing answer, shows each model's code side by side, and documents the judging rules and the commands for evaluating your own model. The [technical report](https://github.com/BAI-AI-Lab/codingBench/blob/main/reports/2026-11-03_ladder_technical_report/main.pdf) extends it to a five-tier ladder from USACO to FrontierCS and compares Kimi K3.1 Pro at two reasoning efforts with DeepSeek Flash V4.1-1017 and MiniMax M3.1 Flash.
+</div>
+
+<div class="pj-item pj-reveal" markdown="1">
+### [mmBench](https://bai-ai-lab.github.io/mmBench/)
+<div class="pj-head"><span class="pj-badge pj-badge--live"><i></i>Live demo</span><span class="pj-tag">7 capabilities</span><span class="pj-tag">354 items × 4 runs</span><span class="pj-tag">Rule-based scoring</span><a class="pj-doc" href="https://bai-ai-lab.github.io/mmBench/report-2026-10-31.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i>Technical report (PDF) ↗</a></div>
+<div class="proj-win"><a href="https://bai-ai-lab.github.io/mmBench/" target="_blank" rel="noopener">
+<div class="proj-bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="proj-url">bai-ai-lab.github.io/mmBench · mmBench</span></div>
+<div class="proj-view">
+<img loading="lazy" src="/images/projects/mm-models.jpg" alt="mmBench: overall score, strongest and weakest capability and cost of each model">
+<img loading="lazy" src="/images/projects/mm-radar.jpg" alt="mmBench: per-capability scores of the three models against random guessing">
+<img loading="lazy" src="/images/projects/mm-rank.jpg" alt="mmBench: ranking and pairwise comparisons with 95% intervals">
+<span class="proj-cta">Open live demo ↗</span>
+</div></a></div>
+
+A multimodal benchmark I built at BAI AI Lab. It tests seven non-overlapping capabilities, from subject reasoning and chart reading to GUI grounding and video, with 354 items drawn under a fixed seed from 11 public benchmarks. Every answer is scored by rule with no model judge, each item runs four times, and models get separate ranks only when the bootstrap 95% interval of their gap excludes zero. The [technical report](https://bai-ai-lab.github.io/mmBench/report-2026-10-31.pdf) compares Kimi K3.1 Pro (85.3), MiniMax M3.1 Flash (74.5) and DeepSeek Flash V4.1-1017 (73.7), along with each model's cost and speed.
 </div>
 
 <div class="pj-item pj-reveal" markdown="1">
