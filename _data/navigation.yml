@@ -9,11 +9,11 @@ main:
     url: /publications/
   - title: "CV"
     url: /cv/
-  - title: "Projects"
-    url: /projects/
-    hot: true   # highlighted in the header (gradient text and a live dot, see _sass/_apple.scss)
-    
-  # Hidden from the menu; the pages are still built at /portfolio/ and /talks/
+  # Hidden from the menu; the pages are still built at /projects/, /portfolio/ and /talks/
+  # - title: "Projects"
+  #   url: /projects/
+  #   hot: true   # highlighted in the header (gradient text and a live dot, see _sass/_apple.scss)
+
   # - title: "Portfolio"
   #   url: /portfolio/
 
