@@ -9,6 +9,8 @@ main:
     url: /publications/
   - title: "CV"
     url: /cv/
+  - title: "Album"
+    url: /album/
   # Hidden from the menu; the pages are still built at /projects/, /portfolio/ and /talks/
   # - title: "Projects"
   #   url: /projects/

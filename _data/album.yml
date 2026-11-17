@@ -1,0 +1,45 @@
+# Album photos, newest first. Add new ones with: python3 _tools/add_photo.py --help
+- src: "jen-hsun-huang-engineering-center"
+  title: "Jen-Hsun Huang Engineering Center"
+  place: "Stanford, CA"
+  alt: "Two people standing in front of the Jen-Hsun Huang Engineering Center sign at Stanford, drawn in a cartoon style"
+  width: 1086
+  height: 1448
+
+- src: "grey-skies-by-the-sea"
+  title: "Grey skies by the sea"
+  alt: "A person in a striped shirt walking along the shore under a cloudy sky, with swimmers and a small wooded island behind"
+  width: 1398
+  height: 1080
+
+- src: "make-a-wish"
+  title: "Make a wish"
+  alt: "A person smiling behind a tray cake with a single lit candle, cans of soda on the table"
+  width: 601
+  height: 800
+
+- src: "graduation-day"
+  title: "Graduation day"
+  alt: "A graduate in a navy gown with a white and beige hood and sunglasses, arms crossed, on a lawn in front of a white modern building"
+  width: 1080
+  height: 1620
+
+- src: "2023-south-coast-to-edinburgh"
+  title: "South coast to Edinburgh"
+  place: "United Kingdom"
+  date: "2023"
+  alt: "A dark map of Great Britain with a red route traced from the south coast of England through London up to Edinburgh, labeled England and 2023"
+  width: 918
+  height: 1708
+
+- src: "dc-motor-lab"
+  title: "DC motor lab"
+  alt: "A lab bench with a DC motor and generator test set wired with colored leads, an oscilloscope showing waveforms, and a tachometer"
+  width: 1440
+  height: 1080
+
+- src: "spot-the-real-one"
+  title: "Spot the real one"
+  alt: "A small long-haired terrier in a striped knit sweater sitting next to a plush toy dog on a blue blanket"
+  width: 1080
+  height: 1522

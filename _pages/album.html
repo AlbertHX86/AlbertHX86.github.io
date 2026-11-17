@@ -1,0 +1,66 @@
+---
+layout: archive
+title: "Album"
+permalink: /album/
+author_profile: true
+---
+
+{% comment %}
+  Photos come from _data/album.yml, in file order (newest first).
+  Add one with: python3 _tools/add_photo.py <photo> --title "..." [--place "..."] [--date YYYY-MM]
+  Clicking a photo opens the theme's Magnific Popup lightbox (assets/js/_main.js), which picks up
+  every link to a .jpg on the page and lets you page through them with the arrow keys.
+{% endcomment %}
+
+{% include base_path %}
+{% assign photos = site.data.album %}
+{% assign undated = 0 %}{% for p in photos %}{% unless p.date %}{% assign undated = undated | plus: 1 %}{% endunless %}{% endfor %}
+{% comment %} Year headings only when every photo has a date; otherwise one grid in file order. {% endcomment %}
+{% if undated == 0 %}{% assign groups = photos | group_by_exp: "p", "p.date | slice: 0, 4" %}{% else %}{% assign groups = photos | group_by: "no_such_key" %}{% endif %}
+
+<style>
+#main .al-year{margin:1.6em 0 .7em;padding:0;border:0;font-size:1.5em;line-height:1.16;font-weight:600;letter-spacing:.009em;color:#1d1d1f}
+.al-grid{columns:2;column-gap:16px;margin-top:1.2em}
+@media (min-width:600px){.al-grid{columns:3;column-gap:20px}}
+.al-grid--1{columns:1;max-width:420px}
+.al-item{break-inside:avoid;margin:0 0 22px;display:block}
+#main .al-item a{display:block;text-decoration:none;border:0;color:inherit}
+.al-frame{display:block;position:relative;border-radius:18px;overflow:hidden;background:#f5f5f7;box-shadow:2px 4px 12px rgba(0,0,0,.08);transition:box-shadow .3s cubic-bezier(0,0,.5,1),transform .3s cubic-bezier(0,0,.5,1)}
+.al-frame img{display:block;width:100%;height:auto;margin:0;border-radius:0;transition:transform .6s cubic-bezier(0,0,.5,1)}
+#main .al-item a:hover .al-frame{box-shadow:2px 4px 16px rgba(0,0,0,.16);transform:translateY(-2px)}
+#main .al-item a:hover .al-frame img{transform:scale(1.03)}
+#main .al-item a:focus-visible .al-frame{outline:2px solid #0071e3;outline-offset:3px}
+.al-cap{margin:.65em 2px 0;font-family:inherit}
+.al-title{display:block;font-size:15px;line-height:1.3;font-weight:600;letter-spacing:-.016em;color:#1d1d1f}
+.al-meta{display:block;margin-top:2px;font-size:13px;line-height:1.35;letter-spacing:-.01em;color:#6e6e73}
+.al-empty{color:#6e6e73}
+/* Lightbox (the popup is appended to <body>, so these rules sit outside #main; they only load on this page) */
+.mfp-bg{background:#000;opacity:.9}
+.mfp-figure:after{box-shadow:none;background:transparent}
+img.mfp-img{clip-path:inset(40px 0 40px round 14px)}
+.mfp-title,.mfp-counter{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,"PingFang SC",sans-serif}
+.mfp-title{font-size:15px;line-height:1.4;letter-spacing:-.016em;color:#f5f5f7;padding-right:56px}
+.mfp-counter{font-size:13px;color:#86868b}
+@media (prefers-reduced-motion:reduce){.al-frame,.al-frame img{transition:none}#main .al-item a:hover .al-frame,#main .al-item a:hover .al-frame img{transform:none}}
+</style>
+
+{% if photos.size > 0 %}
+{% for g in groups %}
+  {% if g.name != "" %}<h2 class="al-year">{{ g.name }}</h2>{% endif %}
+  <div class="al-grid{% if photos.size == 1 %} al-grid--1{% endif %}">
+  {% for p in g.items %}
+    {% capture when %}{% if p.date %}{% assign d = p.date | append: "" %}{% if d.size == 4 %}{{ d }}{% elsif d.size == 7 %}{{ d | append: "-01" | date: "%b %Y" }}{% else %}{{ d | date: "%b %-d, %Y" }}{% endif %}{% endif %}{% endcapture %}
+    {% capture meta %}{% if p.place %}{{ p.place }}{% endif %}{% if p.place and when != "" %} · {% endif %}{{ when }}{% endcapture %}
+    {% capture caption %}{{ p.title }}{% if meta != "" %} — {{ meta }}{% endif %}{% if p.note %}. {{ p.note }}{% endif %}{% endcapture %}
+    <figure class="al-item">
+      <a href="{{ base_path }}/images/album/{{ p.src }}.jpg" title="{{ caption | strip | escape }}">
+        <span class="al-frame"><img src="{{ base_path }}/images/album/{{ p.src }}-thumb.jpg" alt="{{ p.alt | default: p.title | escape }}" width="{{ p.width }}" height="{{ p.height }}" loading="lazy" decoding="async"></span>
+      </a>
+      <figcaption class="al-cap"><span class="al-title">{{ p.title }}</span>{% if meta != "" %}<span class="al-meta">{{ meta }}</span>{% endif %}</figcaption>
+    </figure>
+  {% endfor %}
+  </div>
+{% endfor %}
+{% else %}
+<p class="al-empty">No photos yet.</p>
+{% endif %}
