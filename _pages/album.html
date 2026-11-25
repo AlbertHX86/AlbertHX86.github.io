@@ -64,3 +64,12 @@ img.mfp-img{clip-path:inset(40px 0 40px round 14px)}
 {% else %}
 <p class="al-empty">No photos yet.</p>
 {% endif %}
+
+{% comment %}
+  Hidden uploader: clicking the "Album" title opens a password prompt (see assets/js/album-upload.js).
+  Only active when _data/album_upload.json exists; create it with python3 _tools/set_album_upload.py.
+{% endcomment %}
+{% if site.data.album_upload %}
+<script type="application/json" id="album-upload-config">{{ site.data.album_upload | jsonify }}</script>
+<script src="{{ base_path }}/assets/js/album-upload.js" defer></script>
+{% endif %}
