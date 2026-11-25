@@ -1,4 +1,58 @@
 # Album photos, newest first. Add new ones with: python3 _tools/add_photo.py --help
+- src: "trail-selfie-in-the-snow"
+  title: "Trail selfie in the snow"
+  alt: "A selfie in a black beanie and sunglasses on a snowy trail, a friend with trekking poles walking behind"
+  width: 1280
+  height: 1707
+
+- src: "snowy-pines"
+  title: "Snowy pines"
+  alt: "A wet road between tall snow-covered pine trees, a service truck ahead and a cloudy blue sky"
+  width: 1280
+  height: 1707
+
+- src: "dogs-on-the-snow-road"
+  title: "Dogs on the snow road"
+  alt: "Several dogs of different sizes walking on a packed snow road, long shadows of the hikers across the snow"
+  width: 1707
+  height: 1280
+
+- src: "snow-road-toward-the-mountains"
+  title: "Snow road toward the mountains"
+  alt: "A snow-covered dirt road leading to snowy mountains under layered grey clouds, a person with several dogs in the distance"
+  width: 1280
+  height: 1707
+
+- src: "ranger-bear"
+  title: "Ranger bear"
+  alt: "A selfie next to a plush black bear wearing a ranger hat and orange bandana in a visitor centre"
+  width: 1280
+  height: 1707
+
+- src: "standing-in-the-snow"
+  title: "Standing in the snow"
+  alt: "A person in a black jacket and beanie holding trekking poles on a snowy plain, snow-covered mountains behind under a grey sky"
+  width: 1707
+  height: 1280
+
+- src: "three-on-the-trail"
+  title: "Three on the trail"
+  alt: "Three people in deep snow on a rocky mountain slope, one making a peace sign, the sun above the ridge"
+  width: 1280
+  height: 1707
+
+- src: "alpenglow"
+  title: "Alpenglow"
+  alt: "Sunrise light turning a jagged mountain ridge orange behind a motel parking lot"
+  width: 1707
+  height: 1280
+
+- src: "guitar-on-the-grassland"
+  title: "Guitar on the grassland"
+  alt: "A person playing an acoustic guitar on a green grassland, an SUV and a snow-capped peak behind under a blue cloudy sky"
+  width: 1080
+  height: 1620
+
 - src: "jen-hsun-huang-engineering-center"
   title: "Jen-Hsun Huang Engineering Center"
   place: "Stanford, CA"
