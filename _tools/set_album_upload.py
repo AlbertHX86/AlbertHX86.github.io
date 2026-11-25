@@ -36,12 +36,15 @@ def b64(b):
 
 
 def main():
-    token = getpass.getpass("GitHub token: ").strip()
+    # ALBUM_TOKEN / ALBUM_PASSWORD may be set instead of the prompts (e.g. when there is no terminal).
+    token = (os.environ.get("ALBUM_TOKEN") or getpass.getpass("GitHub token: ")).strip()
     if not token.startswith(("github_pat_", "ghp_")):
         sys.exit("that does not look like a GitHub token")
-    pw = getpass.getpass("Upload password: ")
-    if pw != getpass.getpass("Repeat password: "):
-        sys.exit("passwords differ")
+    pw = os.environ.get("ALBUM_PASSWORD")
+    if pw is None:
+        pw = getpass.getpass("Upload password: ")
+        if pw != getpass.getpass("Repeat password: "):
+            sys.exit("passwords differ")
     if len(pw) < 8:
         sys.exit("password too short")
 
